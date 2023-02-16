@@ -13,7 +13,7 @@ const Join = () => {
           <div className="text-center mx-auto">
               
               <div className="flex justify-center">
-              <h1 className='join text-center'>
+              <h1 className='join py-6 text-center'>
               Why join ASDEV 81 Club?
               </h1>
                </div>
