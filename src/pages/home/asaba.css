@@ -1,0 +1,81 @@
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.pride{
+     font-size: 24px;
+   
+    font-family: 'Poppins', sans-serif;   
+    font-weight: 800;
+    color: #78909C;
+    letter-spacing:-1%;
+    line-height: 36px;
+
+}
+
+.asabaH1{
+   font-size: 60px;
+  
+   font-family: 'Poppins', sans-serif;   
+   font-weight: 800;
+   color: #ffffff;
+   letter-spacing:-2%;
+   line-height: 72px;
+
+} 
+
+.Global{
+
+    font-size: 20px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #C6CACC;
+    letter-spacing:0.15px;
+    line-height: 30px;
+}
+
+.btText{
+
+    font-size: 14px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing:0.75px;
+    line-height: 16px;
+}
+.jump{
+    font-size: 14px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing:0.75px;
+    line-height: 16px;
+
+}
+
+
+.button{
+
+    background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+/* Shadow Blue · 4dp */
+
+box-shadow: 0px 4px 8px rgba(54, 123, 245, 0.16), 0px 2px 4px rgba(54, 123, 245, 0.24);
+border-radius: 99px;
+
+}
+
+.bgP{
+ 
+    padding-left: 100px;
+}
+
+@media only screen and (max-width:600px) {
+    .bgP {
+ 
+        padding-left: 20px;
+    }
+    
+    
+}
