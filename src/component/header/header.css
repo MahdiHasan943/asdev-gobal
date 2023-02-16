@@ -1,0 +1,48 @@
+.borders{
+  
+    border-bottom: solid #E3E5E5 1px;
+
+}
+
+.ASDEV{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 32.4px;
+    color: #000000;
+   letter-spacing: -2%;
+}
+.download ,.register , .signIn{
+    font-size: 15px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   color: #367BF5;
+   text-transform: uppercase;
+
+}
+
+.signIn
+  {
+    background: #e0eafd;
+    padding: 10px 20px;
+   
+  }
+
+  .navmenuUnTrack{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: #000000;
+    /* padding: 12px 20px; */
+
+  }
+  .navmenuTrack{
+
+    background: #F7F9FA;
+    /* padding: 12px 20px; */
+   
+  }
