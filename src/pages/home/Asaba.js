@@ -6,7 +6,7 @@ import bg from '../../images/homeImage/Herotwo.jpg'
 
 const Asaba = () => {
   return (
-      <div className="hero  flex justify-start xl:h-[715px] 2xl:h-[900px] my-12 min-h-screen    bgImg " style={{ backgroundImage: `url(${bg})` }}>
+      <div className="    flex justify-start xl:h-[715px] 2xl:h-[900px] my-12 min-h-screen    bgImg " style={{ backgroundImage: `url(${bg})` }}>
           
           <div className="bgP hero-overly ">
               <div className="">

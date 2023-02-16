@@ -42,26 +42,40 @@ const Club = () => {
           <div className="flex w-[100%] relative px-[20px] justify-center sm:px-[100px]  ">
           <div className="bg-[#FCF3D7] z-0 mt-16 lg:ml-[-180px] lg:w-[50%]  mb-12 lg:mb-0 px-14 py-10 rounded-[23px] h-auto">
               <h1 className='general'>The General Public</h1>
-                  <p className='existing py-6'>Co-operate in any way possible with exiting <br /> Clubs and association with similar objectives in <br /> working for the overall progress of ASABA town.</p>
+                  <p className='existing py-8'>Co-operate in any way possible with exiting <br /> Clubs and association with similar objectives in <br /> working for the overall progress of ASABA town.</p>
                   <div className="relative">
                   <img className='h-[180px] w-[300px] rounded-5xl mb-[-100px]' src={image2} alt="" />
-                   <img className='absolute left-[250px] bottom-20' src={like} alt="" />
+                   <img className='absolute left-[270px] h-[70px] bottom-20' src={like} alt="" />
                   </div>
               </div>
              
               <div className="absolute px-[100px] left-[60%] hidden lg:block 2xl:left-[65%] top-[100px]">
-              <div className="blue  ">
+              <div className="blue px-8 py-10  ">
                   
-                  <h1 className='we'>We are also keen on...</h1>
-                  <p className='unity'>Promoting unity and co-operation among various
-                      ideological groups in ASABA.</p>
-                      <button className='bt'>
+                  <h1 className='we py-4'>We are also keen on...</h1>
+                  <p className='unity py-5'>Promoting unity and <br /> co-operation among <br />  various
+                      ideological <br /> groups in ASABA.</p>
+                      <button className='bt my-4 bg-[white]  py-4 px-10 rounded-md'>
                           <span className='aboutbt'>                  ABOUT THE CLUB</span>
                   </button>
               </div>
               </div>
             
-         </div>
+          </div>
+          <div className="flex justify-center py-10">
+          <div className="   block  lg:hidden ">
+              <div className="blue px-20 sm:px-[130px] py-10  ">
+                  
+                  <h1 className='we py-4'>We are also keen on...</h1>
+                  <p className='unity py-5'>Promoting unity and <br /> co-operation among <br />  various
+                      ideological <br /> groups in ASABA.</p>
+                      <button className='bt my-4 bg-[white]  py-4 px-10 rounded-md'>
+                          <span className='aboutbt'>                  ABOUT THE CLUB</span>
+                  </button>
+              </div>
+              </div>
+          </div>
+            
     </div>
   )
 }
