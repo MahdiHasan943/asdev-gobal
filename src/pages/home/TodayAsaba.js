@@ -19,7 +19,7 @@ const TodayAsaba = () => {
           
          
               <div className=" lg:w-[50%]">
-              <div className="bgP hero-overly flex justify-center">
+              <div className=" hero-overly flex justify-center">
               <div className="">
                 
             
@@ -33,8 +33,8 @@ const TodayAsaba = () => {
                               enhance the welfare of members and of <br />
                               Asaba people in general.
               </p>
-              <div className="text-start mx-auto   flex items-center py-8">
-                  <button className='discoverbtn mb-[-90px]  mx-auto flex justify-between py-6 px-12'>
+              <div className="    flex items-center py-8">
+                  <button className='discoverbtn mx-auto    mb-[-90px]   flex justify-between py-6 px-12'>
                           <span className='discoverText'>
                               Discover ASDEV81 Community </span>
                          <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>

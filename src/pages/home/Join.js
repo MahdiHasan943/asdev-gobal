@@ -20,7 +20,7 @@ const Join = () => {
           </div>
           <div className="grid pt-[80px] grid-cols-1 gap-4 lg:grid-cols-3">
               <div className="mx-auto">
-                  <img src={one} alt="" />
+                  <img className='mx-auto'  src={one} alt="" />
                   <p className='numberText'>
                       Promote and project <br /> Asaba heritage <br />
                       at all times</p>
@@ -33,7 +33,7 @@ const Join = () => {
                 </p>
               </div>
               <div className="mx-auto">
-              <img src={three} alt="" />
+              <img className='mx-auto'  src={three} alt="" />
                   <p className='numberText'>
                   Working for the <br /> overall progress of <br /> Asaba 
                  </p>

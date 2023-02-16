@@ -8,7 +8,7 @@ import image2 from '../../images/homeImage/image2.png'
 
 const Club = () => {
   return (
-      <div>
+      <div className='pb-10'>
           
           <div className="px-[20px] sm:pl-[100px]">
               
