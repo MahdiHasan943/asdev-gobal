@@ -1,0 +1,35 @@
+
+.join{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 72px;
+display: flex;
+
+letter-spacing: -0.02em;
+
+/* Gradient Dark */
+
+background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.numberText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+
+
+}

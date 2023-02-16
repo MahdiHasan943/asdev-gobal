@@ -6,7 +6,7 @@ import bg from '../../images/homeImage/Herotwo.jpg'
 
 const Asaba = () => {
   return (
-      <div className="    flex justify-start xl:h-[715px] 2xl:h-[900px] my-12 min-h-screen    bgImg " style={{ backgroundImage: `url(${bg})` }}>
+      <div className="hero  flex justify-start xl:h-[715px] 2xl:h-[900px] my-12 min-h-screen    bgImg " style={{ backgroundImage: `url(${bg})` }}>
           
           <div className="bgP hero-overly ">
               <div className="">
@@ -25,13 +25,14 @@ const Asaba = () => {
                   towards the general progress and <br /> aspirations of
                   Asaba people.
               </p>
-              <div className="text-start flex items-center py-8">
+              <div className="text-start sm:flex items-center py-8">
                   <button className='button py-4 px-16'>
                           <span className='btText'>
                           CLUB ACTIVITIES
                  </span>
-                  </button>
-                  <span className='opacity-80 font-light px-4 sm:px-8 jump'>
+                      </button>
+                  
+                  <span className=' opacity-80 font-light px-4 sm:px-8 jump'>
                   JUMP IN
                   </span>
                   </div>
