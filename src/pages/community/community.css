@@ -1,0 +1,88 @@
+
+.national{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 72px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+/* White Base */
+
+color: #FFFFFF;
+
+/* Shadow Dark · 16dp */
+
+text-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+    
+
+
+}
+
+.bg{
+    background: #292a2a;
+  
+border-radius: 8px
+}
+
+.need{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: 0.15px;
+
+/* Gray · 30% */
+
+color: #E3E5E6;
+
+}
+
+.president{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    
+    /* Icons Color */
+    
+    color: #78909C;
+    
+}
+.Og{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+
+/* Gray · 40% */
+
+color: #C6CACC;
+
+}
+
+.bgBlue{
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+/* Shadow Dark · 16dp */
+
+box-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+border-radius: 8px;
+}

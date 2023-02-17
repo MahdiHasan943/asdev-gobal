@@ -1,12 +1,123 @@
 import React from 'react'
 import useTitle from '../../component/hook/useTitle'
+import ChapterBrief from './ChapterBrief'
+import ChapterChair from './ChapterChair'
+
+
+import './community.css'
+import discover from '../../images/communityImage/Discover.png' 
+import chero from '../../images/communityImage/Chero.png' 
+import blob from '../../images/communityImage/Blob.png' 
+import img1 from '../../images/communityImage/LouieVolkman.png' 
+import img2 from '../../images/communityImage/FernandoPidrilio.png' 
+
+import img3 from '../../images/communityImage/MadalineGibson.png' 
+import img4 from '../../images/communityImage/Screenshot_1.jpg' 
+import img5 from '../../images/communityImage/EdwardPowlowski.png' 
+import img6 from '../../images/communityImage/Vector.png' 
+import img7 from '../../images/communityImage/TobyHalvorson.png' 
+import img8 from '../../images/communityImage/ASDEV-Logo.png' 
+
+
 
 const Community = () => {
 
   useTitle('Community')
 
   return (
-    <div>Community</div>
+    <>
+    <div>
+          
+        <div className="Discover px-8 pb-[80px]">
+
+          <img className='mx-auto py-8' src={discover} alt="" />
+
+          <div className="md:flex">
+            <div className="my-8 md:my-0"><img src={chero} alt="" /></div>
+            <div className="mx-auto"><img className="mx-auto" src={blob} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="px-8 lg:px-[100px] pb-[100px] bg-[#3E4345] py-10">
+          <div className="">
+            <h1 className='national py-8'>The National Executive</h1>
+                 {/* 1 grid */}
+            <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 ">
+              <div className="bg  py-12 px-6">
+                <img className=' shadow-2xl z-50' src={img1} alt="" />
+                  <p className='need py-4'>“Needless to say we are extremely satisfied with the results. Setproduct is the real deal! I don't know what else to say. No matter where you go, Setproduct is the coolest, most happening thing around!”</p>
+                <div className="flex ">
+                  <img src={img8} alt="" />
+                  <div className="mx-4 ">
+                    <p className='Og'>OGBUESHI CHINEDU ALLANAH</p>
+                    <p className='president'>PRESIDENT</p>
+                  </div>
+                   </div>
+              </div>
+              {/* 2 */}
+              <div className="bg  py-12 px-6">
+                <img className=' shadow-2xl z-50' src={img2} alt="" />
+                  <p className='need py-4'>"Great job, I will definitely be ordering again! Setproduct is the most valuable business resource we have EVER purchased. Needless to say we are extremely satisfied with the results. Great job, I will definitely be ordering again!"</p>
+                <div className="flex ">
+                  <img src={img8} alt="" />
+                  <div className="mx-4 ">
+                    <p className='Og'>MR SUNNY ELUAKA</p>
+                    <p className='president'>VICE PRESIDENT</p>
+                  </div>
+                   </div>
+              </div>
+             </div>
+               {/* 2 grid */}
+               <div className="grid mt-[50px] grid-cols-1 gap-6 lg:grid-cols-3 ">
+              <div className="bgBlue  py-6 px-6">
+                <img className=' shadow-2xl z-50' src={img3} alt="" />
+                  <p className='need py-4'>"Nice work on your Setproduct. Thank you for making it painless, pleasant and most of all hassle free! It's incredible."</p>
+                <div className="flex mt-6 ">
+                  <img src={img8} alt="" />
+                  <div className="mx-4 ">
+                    <p className='Og'>MR PASCAL ATTOH</p>
+                    <p className='president'>FINANCIAL SECRETARY</p>
+                  </div>
+                   </div>
+              </div>
+              {/* 2 */}
+              <div className="bg  py-6 px-6">
+                <img className=' shadow-2xl  z-50' src={img5} alt="" />
+                  <p className='need py-4'>"No matter where you go, Setproduct is the coolest, most happening thing around! Setproduct is awesome!"</p>
+                <div className="flex mt-6 ">
+                  <img src={img8} alt="" />
+                  <div className="mx-4 ">
+                    <p className='Og'>MR EMMA DIALI</p>
+                    <p className='president'>INTERIM SECRETARY</p>
+                  </div>
+                   </div>
+              </div>
+
+               {/* 3 */}
+               <div className="bg  py-6 px-6">
+                <img className=' shadow-2xl z-50' src={img7} alt="" />
+                  <p className='need py-4'>"I have gotten at least 50 times the value from Setproduct. It's exactly what I've been looking for. I just can't get enough of Setproduct.”</p>
+                <div className="flex mt-6 ">
+                  <img src={img8} alt="" />
+                  <div className="mx-4 ">
+                    <p className='Og'>OGBUESI RICHIE OMO</p>
+                    <p className='president'>PUBLICITY SECRETARY</p>
+                  </div>
+                   </div>
+              </div>
+                  
+
+             </div>
+
+            
+                  </div>
+        </div>
+
+    </div>
+      <ChapterChair></ChapterChair>
+      
+      <ChapterBrief></ChapterBrief>
+    </>
   )
 }
 

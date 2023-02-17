@@ -27,7 +27,7 @@ const Club = () => {
               <div className="px-14 shadow-lg mb-[250px] lg:mb-0 py-10 bg-[#DAF5F2] rounded-[16px] w-full h-auto ">
                   <h1 className='member'>For Members</h1>
                   <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
-                  <img className='h-[250px] shadow-sm  bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
+                  <img className='h-[250px]   bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
 
                   {/* className='h-[220px] z-50 w-[300px] absolute top-[380px] bottom-0' */}
               </div>

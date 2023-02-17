@@ -44,7 +44,7 @@ const AboutUs = () => {
 
       {/* 1 */}
       <div className="px-6 pt-[60px] lg:pt-[150px] pb-[200px]">
-      <div className="px-4 lg:px-0  shadow-xl ">
+      <div className="px-4 lg:px-0  shadow ">
         <div className="lg:pl-[120px]  py-20">
         <p className='AboutP '>
               Asdev 81 Club is a prominent socio-cultural club with the main
