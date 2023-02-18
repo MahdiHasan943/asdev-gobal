@@ -18,7 +18,12 @@ import Img10 from '../../images/activitiesImage/Image10.png'
 
 import TLetter from '../../images/activitiesImage/T.png'
 import setting from '../../images/activitiesImage/setting.png'
+import clock from '../../images/activitiesImage/clock1.png'
+import user from '../../images/activitiesImage/user.jpg'
 
+import arrow from '../../images/activitiesImage/arrow.jpg'
+
+import sidebar from '../../images/activitiesImage/sidebar.png'
 
 
 
@@ -72,7 +77,7 @@ const Activities = () => {
                   <p className='Covid'>Primary School <br /> Furniture Project</p>
                   
                 </div>
-                <img className='absolute h-[130px] mb-[-20px] ml-[-20px] bottom-0 left-0' src={setting} alt="" />
+                <img className='absolute h-[130px]   bottom-0 left-0' src={setting} alt="" />
                  </div>
             </div>
             <div className="md:mx-8">
@@ -99,7 +104,8 @@ const Activities = () => {
             {/* 2 */}
   <div className="md:mx-8 my-8 overflow-hidden  h-auto md:h-[564px]">
               <img className='mx-auto  mb-6 md:py-0 w-full' src={ImgSix} alt="" />
-              <div className="bg-[#37734A] flex items-center justify-center overflow-hidden py-[100px] md:py-[20px] lg:py-[40px]  xl:py-[80px] rounded-2xl  w-full">
+              <div className="bg-[#37734A] relative flex items-center justify-center overflow-hidden py-[100px] md:py-[20px] lg:py-[40px]  xl:py-[80px] rounded-2xl  w-full">
+                <img className=' absolute top-14 right-6' src={clock} alt="" />
                 <div className="overflow-hidden ">
                 <p className='child '>Children <br /> Awareness <br /> Day
                   
@@ -117,15 +123,15 @@ const Activities = () => {
           {/* 4 */}
 
 
-          <div className="md:flex justify-center py-6 items-center ">
+          <div className="md:flex justify-center md:mt-[-180px] lg:mt-[-0px] py-6 items-center ">
                        {/* 1 */}
             <div className="overflow-hidden md:flex  h-auto md:h-[564px]">
                  {/* 1 */}
               <div className="">
-              <div className="bg-[#37734A] flex items-center justify-center overflow-hidden  md:h-[270px] rounded-2xl  w-full">
-                <div className="overflow-hidden ">
-                <p className='child '>Children <br /> Awareness <br /> Day
-                  
+              <div className="bg-[#F3AA18] relative py-[100px] flex items-center justify-center overflow-hidden  md:h-[270px] rounded-2xl  w-full">
+                <img src={arrow} className='absolute top-4 left-3 h-[50px]' alt="" />
+                  <div className="overflow-hidden ">
+                <p className='dinner '>ASDEV Family <br /> Dinner
                   </p>
                 </div>
               </div>
@@ -133,25 +139,36 @@ const Activities = () => {
 
               </div>
               {/* 2*/}
-              <div className="md:mx-14">
-                <img className='w-full mt-6 md:mt-0' src={ImgNine} alt="" />
-                <div className="md:flex mt-6 ">
-                  <img className='md:mx-4 w-full' src={Img10} alt="" />
-                  <img className='mt-6 md:mt-0 w-full' src={Img10} alt="" />
+              <div className="md:mx-8">
+                <img className='w-full mt-6 md:mt-0 md:h-[270px]' src={ImgNine} alt="" />
+                <div className="md:grid grid-cols-2 gap-4 mt-6 ">
+                <div className="">
+              <div className="bg-[#367BF5] py-[100px]  flex items-center justify-center overflow-hidden  md:h-[270px] rounded-2xl  w-full">
+                <div className="overflow-hidden h-[240px] md:h-[200px]  bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${sidebar})` }} >
+                <p className='dinner1 '>Schools and <br /> Parents Day <br /> Out
+                  </p>
+                </div>
+              </div>
+
+              </div>
+                  <img className='mt-6 md:h-[270px] md:mt-0 w-full' src={Img10} alt="" />
 
                 </div>
               </div>
 
             </div>
                    {/* 2 */}
-            <div className="mt-6 md:mt-0 overflow-hidden linear  h-auto md:h-[564px]">
-              <p>
+            <div className="mt-6  relative md:mt-0 overflow-hidden flex justify-center py-[100px] items-center linear px-[30px]  h-auto md:h-[564px]">
+              <img className='absolute bottom-0 h-[100px]' src={user} alt="" />
+              <div className="mx-4">
+              <p className='medical'>
                 
 
-ASDEV81 
-Medical 
-Outreach
-                    </p>
+                ASDEV81  <br />
+                Medical <br />
+                Outreach
+                                    </p>
+              </div>
             </div>
             
             

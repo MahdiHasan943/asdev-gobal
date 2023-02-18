@@ -1,7 +1,9 @@
 import React from 'react'
 import './club.css'
-import calender from '../../images/homeImage/cal.jpg'
-import gallary from '../../images/homeImage/gal.png'
+import calender from '../../images/homeImage/order.png'
+import gallary from '../../images/homeImage/project.png'
+
+import git from '../../images/homeImage/git.png'
 
 import like from '../../images/homeImage/Vector@2x.png'
 import image2 from '../../images/homeImage/image2.png'
@@ -27,8 +29,11 @@ const Club = () => {
               <div className="px-14 shadow-lg mb-[250px] lg:mb-0 py-10 bg-[#DAF5F2] rounded-[16px] w-full h-auto ">
                   <h1 className='member'>For Members</h1>
                   <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
-                  <img className='h-[250px]   bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
-
+                    
+                  <div className="relative">
+                  <img className='h-[250px]    bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
+                     <img className='absolute right-40 top-0' src={git} alt="" />
+                  </div>
                   {/* className='h-[220px] z-50 w-[300px] absolute top-[380px] bottom-0' */}
               </div>
               <div className="bg-[#E5EFFF] shadow-lg mb-12 lg:mb-0 px-14 py-10 rounded-[16px] w-full h-auto">
