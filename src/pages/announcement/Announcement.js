@@ -2,15 +2,16 @@ import React from 'react'
 import useTitle from '../../component/hook/useTitle'
 
 import './announceMent.css'
+import { BsArrowRightShort ,BsChevronRight} from "react-icons/bs";
 
 import bg from '../../images/announcementImage/Image.png'
 import blob from '../../images/announcementImage/Blob.png'
 import Flow from '../../images/announcementImage/Flowmappblocks.png'
 import Iphone2 from '../../images/announcementImage/iPhone2.png'
-import IphoneOne from '../../images/announcementImage/iphone.png'
+import IphoneOne from '../../images/announcementImage/IphoneOne.png'
 import Map from '../../images/announcementImage/Map.png'
 import vector from '../../images/announcementImage/Vector.png'
-import Mack from '../../images/announcementImage/Macbook.jpg'
+import Mack from '../../images/announcementImage/Macbook33.png'
 
 import we from '../../images/announcementImage/we.png'
 
@@ -23,6 +24,7 @@ const Announcement = () => {
 
       <div className="">
 
+        <section>
         <div  className="bg-[#3E4345] pt-[50px] pb-[150px]">
           <div className="px-[20px] lg:px-[120px]">
 
@@ -79,7 +81,196 @@ const Announcement = () => {
 
             </div>
 
-         </div>
+        </div>
+        </section>
+        {/* 2 */}
+
+        <section className="">
+        <div  className="bg-[white] pt-[50px] pb-[150px]">
+          <div className="px-[20px] lg:px-[120px]">
+              <h1 className='Reach'>
+              Reach the world beyond borders...
+              </h1>
+              <p className=' py-6 Promote'>
+              Promote you business, events and all types of occasion on ASDEV81 Club website
+              </p>
+                 
+              <div className="grid grid-cols-1 my-6 lg:grid-cols-2 gap-5">
+                <div className="GridOne pt-6">
+                  <p className='Apps py-4 text-center'>
+                  FOR APPS HIGHLIGHTS
+                  </p>
+                  <p className='most py-3 text-center'>
+                  Represent your apps in a most <br /> convenient way to achieve installs
+                  </p>
+                  <p className='smart py-4 text-center'>
+                  For smart teams who want to release apps faster with <br /> Setproduct items by publishing into a library
+                  </p>
+                  <img className='mx-auto' src={Iphone2} alt="" />
+                </div>
+                <div className="GridTwo py-4">
+
+                  <img className='mx-auto' src={Flow} alt="" />
+
+                <p className='Apps py-4 text-center'>
+                FOR A BETTER SHOWCASE
+                  </p>
+                  <p className='most py-3 text-center'>
+                  App UI pieces as a feature
+                  </p>
+                  <p className='smart py-4 text-center'>
+                  Copy and paste into most storytelling UI pieces <br /> from your appliaction and equip with a description.
+                  </p>
+                  <div className="flex justify-center">
+                  <button className=' border bottom-1 rounded-full border-[white] flex justify-between py-6 px-12'>
+                                <span className='text-white'>
+                                Use this method </span>
+                               <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
+                       
+                        </button>
+
+                   </div>
+                </div>
+              </div>
+              {/* 2 grid */}
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+
+              <div className="GridThree py-6">
+
+         <img className='mx-auto' src={Mack} alt="" />
+
+          <p className='Apps mt-[-200px] py-4 text-center'>
+          FOR PRODUCT SCREENS
+          </p>
+            <p className='most py-3 text-center'>
+            Editable Mockups are here
+            </p>
+            <p className='smart py-4 text-center'>
+            For smart teams who want to release apps faster <br /> with Setproduct items by publishing into a library
+            </p>
+              <div className="flex justify-center">
+              <button className=' border bottom-1 rounded-full border-[white] flex justify-between py-6 px-12'>
+                            <span className='text-white'>
+                            Quickstart your project </span>
+                          <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
+     
+      </button>
+
+ </div>
+</div>
+
+
+                <div className="GridFour flex  pt-6">
+                  <div className="ml-[30px] w-[50%]">
+                  <p className='Apps py-4 '>
+                  RESCALABLE BLOCKS
+                  </p>
+                  <p className='most py-3 '>
+                  Move nested objects. <br />
+Create more layouts. <br />
+Impact users better. <br />
+                  </p>
+                  <p className='smart py-4 '>
+                  • Components-driven constrained <br /> and incredibly organized to quick <br /> start without docs or Figma <br /> knowledge <br />
+
+• Contains a lot of UI patterns to <br /> quickly deploy a brandy product <br /> design website <br />
+
+• Several Google.Fonts declared as <br /> Figma styles for base typography. <br /> You are free to choose!
+                  </p>
+                  <div className="flex justify-center">
+                  <button className=' border bottom-1 rounded-full border-[white] flex justify-between py-6 px-4'>
+                                <span className='text-white'>
+                                Download Fapapp now! </span>
+                               <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
+                       
+                        </button>
+
+                   </div>
+                  </div>
+                  <div className="w-[50%]">
+                    <img className='h-[600px] w-full' src={IphoneOne} alt="" />
+                  </div>
+                </div>
+               
+              </div>
+              
+
+
+
+
+            </div>
+
+        </div>
+        </section>
+        {/* 3 */}
+
+        <section>
+        <div  className="bg-[#3E4345] pt-[50px] pb-[150px]">
+          <div className="px-[20px] lg:px-[120px]">
+
+              <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
+                <div className="">
+                  <h1 className='what'>
+                  What’s Up?
+                  </h1>
+                  <p className='Thinking my-6'>
+                    Thinking of letting the world in on your business or
+                    updoming events?
+
+                  </p>
+                  <p className='offers'>
+                    ASDEV 81 Club offers people and business all over the world
+                    a platform to promote their business or announce any upcoming
+                    solcial or business events, Take advantage of our far reaching
+                    platform and showcase your new business or let the world know
+                    when you are celebrating an achievement.</p>
+                </div>
+                <div className="">
+                  <div className="FormHeader py-4 text-center">
+                    <p className='Contact'>Contact us for our Ad placing pricing</p>
+                  </div>
+                  <div className="cardBody bg-[#242728] card-body">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 form-control">
+                      <div className="">
+                      
+          <input type="text" placeholder="First Name" className="input w-full bg-[#242728] border-[#F6D365] input-bordered" />
+                      </div>
+                      <div className="">
+                    
+          <input type="text" placeholder="Last Name" className="input w-full bg-[#242728] border-[#919699] input-bordered" />
+                 </div>
+        </div>
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 form-control">
+                      <div className="overflow-hidden">
+                    
+          <input type="text" placeholder="Email Address" className="input w-full bg-[#242728] border-[#919699] input-bordered" />
+                      </div>
+                      <div className="overflow-hidden">
+        
+          <input type="text" placeholder="Phone Number" className="input w-full bg-[#242728] border-[#919699] input-bordered" />
+                 </div>
+        </div>
+        <div className="form-control mt-6">
+                      <button className="btn  relative text-black btngold">Submit
+                      <span className='text-[black] font-bold mx-4 absolute right-0'> <BsArrowRightShort className='text-[50px]' />  </span>
+                      </button>
+                      <p className='text-center py-3 text-[#C6CACC]'>
+                      You have to read our website <span className='text-[#367BF5] '>Terms and Services</span>
+                      </p>
+                     
+        </div>
+      </div>
+
+                </div>
+
+                    </div>
+            </div>
+
+        </div>
+         </section>
+
+
         
        </div>
 

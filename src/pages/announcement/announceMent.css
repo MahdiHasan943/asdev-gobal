@@ -69,3 +69,204 @@ letter-spacing: 0.15px;
 
 
 }
+
+
+.what{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 101px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    
+    /* White Base */
+    
+    color: #FFFFFF;
+    
+    /* Shadow Dark · 16dp */
+    
+    text-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+    
+}
+
+.Thinking{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 135%;
+/* or 41px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+/* Gray · 20% */
+
+color: #F1F3F4;
+
+}
+.offers{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.15px;
+    
+    /* Gray · 30% */
+    
+    color: #E3E5E6;
+    
+
+}
+
+.FormHeader{
+
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+border-radius: 8px 8px 0px 0px;
+
+}
+
+.Contact{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+letter-spacing: 0.15px;
+
+/* White Base */
+
+color: #FFFFFF;
+
+}
+.cardBody{
+
+    /* background: rgba(0, 0, 0, 0.87); */
+/* opacity: 0.48; */
+border-radius: 8px;
+}
+.btngold{
+
+    background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+border-radius: 8px;
+}
+
+
+.Reach{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+.Promote{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+
+
+}
+
+.GridOne{
+
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+border-radius: 16px;
+}
+.GridTwo{
+    background: linear-gradient(90deg, #9BAAFA 0%, #367BF5 100%);
+border-radius: 16px;
+
+}
+.Apps{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+letter-spacing: 0.15px;
+
+/* Gradient Positive 2 */
+
+background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+.most{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+letter-spacing: -0.01em;
+
+/* White Base */
+
+color: #FFFFFF;
+
+}
+.smart{
+    /* Body 1 / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+letter-spacing: 0.44px;
+
+/* White Base */
+
+color: #FFFFFF;
+
+}
+
+.GridThree{
+    background: linear-gradient(90deg, #F4977B 0%, #F9567E 100%);
+border-radius: 16px;
+}
+
+.GridFour{
+    background: linear-gradient(90deg, #77A7BC 0%, #1D8989 100%);
+border-radius: 16px;
+}
