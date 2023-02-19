@@ -34,7 +34,7 @@ const Activities = () => {
    useTitle('Activities')
   return (
     <>
-      <div className='py-10 lg:flex h-auto bg-no-repeat bg-cover bg-center	items-center min-h-screen '  style={{ backgroundImage: `url(${activitiesBg})` }}>
+      <div className='py-10 lg:flex bg-no-repeat bg-cover bg-center	items-center min-h-screen '  style={{ backgroundImage: `url(${activitiesBg})` }}>
 
 </div>
 

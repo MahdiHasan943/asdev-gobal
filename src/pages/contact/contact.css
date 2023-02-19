@@ -1,0 +1,147 @@
+.love{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 84px;
+line-height: 105%;
+/* or 88px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+/* Gradient Dark */
+
+background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.Like{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.25px;
+
+/* Gray · 80% */
+
+color: #5E6366;
+}
+
+
+.job{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 127.5%;
+/* or 38px */
+
+letter-spacing: -0.02em;
+
+/* White Base */
+
+color: #FFFFFF;
+
+/* Shadow Dark · 8dp */
+
+text-shadow: 0px 8px 16px rgba(8, 35, 48, 0.1), 0px 4px 8px rgba(8, 35, 48, 0.16);
+
+}
+.show{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+   
+    
+    /* White Base */
+    
+    color: #FFFFFF;
+    
+}
+
+.contactForm{
+    background: #5E6366;
+/* Shadow Dark · 24dp */
+
+box-shadow: 0px 24px 32px rgba(8, 35, 48, 0.08), 0px 8px 16px rgba(8, 35, 48, 0.1);
+border-radius: 8px;
+}
+
+.drop{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 135%;
+/* or 35px */
+
+
+letter-spacing: -0.02em;
+
+/* Gradient Yellow */
+
+background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+/* Shadow Dark · 8dp */
+
+text-shadow: 0px 8px 16px rgba(8, 35, 48, 0.1), 0px 4px 8px rgba(8, 35, 48, 0.16);
+}
+.always{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: 0.15px;
+
+/* White Base */
+
+color: #FFFFFF;
+
+}
+.read{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.44px;
+
+/* Gray · 40% */
+
+color: #C6CACC;
+
+}
+
+.submit{
+    background: #367BF5;
+/* Shadow Blue · 16dp */
+
+box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+border-radius: 4px;
+}
+.submit:hover{
+    background: #367BF5;
+/* Shadow Blue · 16dp */
+
+box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+border-radius: 4px;
+}

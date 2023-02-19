@@ -172,9 +172,9 @@ Create more layouts. <br />
 Impact users better. <br />
                   </p>
                   <p className='smart py-4 '>
-                  • Components-driven constrained <br /> and incredibly organized to quick <br /> start without docs or Figma <br /> knowledge <br />
+                  • Components-driven constrained <br /> and incredibly organized to quick <br /> start without docs or Figma <br /> knowledge <br /> <br />
 
-• Contains a lot of UI patterns to <br /> quickly deploy a brandy product <br /> design website <br />
+• Contains a lot of UI patterns to <br /> quickly deploy a brandy product <br /> design website <br /> <br />
 
 • Several Google.Fonts declared as <br /> Figma styles for base typography. <br /> You are free to choose!
                   </p>
@@ -234,21 +234,21 @@ Impact users better. <br />
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 form-control">
                       <div className="">
                       
-          <input type="text" placeholder="First Name" className="input w-full bg-[#242728] border-[#F6D365] input-bordered" />
+          <input type="text" placeholder="First Name" className="input w-full text-white bg-[#242728] border-[#F6D365] input-bordered" />
                       </div>
                       <div className="">
                     
-          <input type="text" placeholder="Last Name" className="input w-full bg-[#242728] border-[#919699] input-bordered" />
+          <input type="text" placeholder="Last Name" className="input w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                  </div>
         </div>
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 form-control">
                       <div className="overflow-hidden">
                     
-          <input type="text" placeholder="Email Address" className="input w-full bg-[#242728] border-[#919699] input-bordered" />
+          <input type="text" placeholder="Email Address" className="input w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                       </div>
                       <div className="overflow-hidden">
         
-          <input type="text" placeholder="Phone Number" className="input w-full bg-[#242728] border-[#919699] input-bordered" />
+          <input type="text" placeholder="Phone Number" className="input w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                  </div>
         </div>
         <div className="form-control mt-6">

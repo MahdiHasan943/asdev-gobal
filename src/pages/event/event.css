@@ -1,0 +1,307 @@
+.Some{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+line-height: 105%;
+/* or 73px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+/* White Base */
+
+color: #FFFFFF;
+}
+
+.celebrate{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    
+    /* Gray · 20% */
+    
+    color: #F1F3F4;
+    
+}
+
+.UpComing{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+  
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    /* Dark Color */
+    
+    color: rgba(0, 0, 0, 0.87);
+    
+    
+}
+
+.ASDEV81{
+    /* 48 sp • H3 / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 61px;
+
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Gradient Dark */
+
+background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+
+
+.people{
+    /* Body Big / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15px;
+
+color: #010B10;
+
+}
+
+.roads{
+    /* Body 1 / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+letter-spacing: 0.44px;
+
+/* Gray · 80% */
+
+color: #5E6366;
+
+}
+
+.Time{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+letter-spacing: -0.02em;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+}
+
+.boxT{
+    /* White Base */
+
+background: #FFFFFF;
+/* Shadow Dark · 16dp */
+
+box-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+border-radius: 99px;
+}
+
+.RSVP{
+    /* 24 sp • H5 / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+/* White Base */
+
+color: #FFFFFF;
+}
+
+.address{
+    /* Body Big / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+
+line-height: 32px;
+/* or 160% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+
+
+}
+
+.See{
+    /* 34 sp • H4 / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+
+
+}
+
+.create{
+    /* Body Big / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: 0.15px;
+
+/* Gray · 90% */
+
+color: #3E4345;
+
+}
+
+.view{
+    background: #FFFFFF;
+/* Shadow Blue · 4dp */
+
+box-shadow: 0px 4px 8px rgba(54, 123, 245, 0.16), 0px 2px 4px rgba(54, 123, 245, 0.24);
+border-radius: 6px;
+}
+
+.event{
+    
+/* Button / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+
+/* Blue Base */
+
+color: #367BF5;
+}
+.event{
+    
+/* Button / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+
+/* Blue Base */
+
+color: #367BF5;
+}
+
+
+.world{
+    /* 60 sp • H2 / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+line-height: 72px;
+
+letter-spacing: -0.02em;
+
+/* White Base */
+
+color: #FFFFFF;
+
+/* Shadow Dark · 16dp */
+
+text-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+
+}
+.organize{
+    /* 24 sp • H5 / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+letter-spacing: -0.01em;
+
+/* Gradient Yellow */
+
+background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+@media only screen and (max-width:640px){
+
+    .First{
+ 
+        margin: auto;
+    }
+}
