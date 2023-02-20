@@ -65,8 +65,7 @@ const Footer = () => {
 
           </span>         </div>
           
-        <p className='text-center pt-20 pb-8'>© asdev81.org | All rights reserved The best time to plant <br />
-          a tree was 20 years ago. The second best time is now</p>
+        <p className='text-center pt-20 pb-8'>© asdev81.org | All rights reserved </p>
       </div>
 
 

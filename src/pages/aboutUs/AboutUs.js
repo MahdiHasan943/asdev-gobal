@@ -4,6 +4,8 @@ import useTitle from '../../component/hook/useTitle'
 import aboutImg from '../../images/aboutImage/asdevpng.png'
 import Button from '../../images/aboutImage/ButtonBG.png'
 import bob from '../../images/aboutImage/Blob.png'
+import cleanpu from '../../images/aboutImage/cleanup.png'
+import { BsArrowRightShort ,BsChevronRight} from "react-icons/bs";
 
 
 
@@ -15,30 +17,52 @@ const AboutUs = () => {
   return (
     <div>
        
-      <div className="lg:flex ">
+      <div className="hero    flex justify-center  items-end xl:h-[615px] 2xl:h-[900px]  min-h-screen" style={{ backgroundImage: `url(${cleanpu})` }}>
            
-        <div className="px-8 lg:px-0 lg:pl-[120px] pt-4 lg:pt-[50px]  my-8 lg:my-0 lg:w-[40%]">
-
-          <h3 className='elite py-4'>Elite Asaba Club since 1981</h3>
-          <h1 className='our py-4'>Our story</h1>
-          <p className='aSdev py-4'>Asdev 81 club was formed based on the burning
-            desire to offer services for our home town, Asaba.
-            The founding fathers felt that the best way to support
-            our home town was to constitute ourselves into a formidable
-            group that impacts lives of their members across the world and
-            Asaba indigenes as a whole.</p>
-          <div className="flex py-8  items-center z-50 ">
-            <button className='Get z-50 py-4 px-8 '>
-            <span className=' getText'>GET IN TOUCH</span>
-            </button>
-            <p className='Want text-center mx-8'>WANT TO KNOW <br /> MORE?</p>
+        <div className="px-4 lg:px-0  lg:flex  lg:w-[90%]">
+          <div className="lg:w-[30%] rounded-sm ourStory px-10 py-10">
+                  <h1 className='py-4 ourStoryH1'>
+                  Elite Asaba <br /> 
+                  Club since 1981
+                  </h1>
+                  <p className='ourStoryp py-8'>
+                  Our story
+                  </p>
+           
+                      <button className=" border py-3 pl-6 pr-[100px] relative text-white bg-none  outline-none "> Contact Us
+              <span className='text-[white]  font-bold mx-4 absolute bottom-0 right-0'>
+              <BsArrowRightShort className='text-[50px]' /> 
+                        </span>
+                      </button>
+                     
+                     
+      
           </div>
-          <img className='z-0 mt-[-100px] ml-[-20px]' src={bob} alt="" />
+          <div className="lg:w-[70%] py-6 px-8 rounded-sm bg-[white] ">
 
-        </div>
-        <div className="px-6 lg:w-[60%]">
-          <img className='mx-auto lg:ml-auto' src={aboutImg} alt="" />
-        </div>
+            <p className='founded py-6'>
+              FOUNDED  <span className=' text-[gray]'>
+              • SEPTEMBER 1967
+            </span>
+            </p>
+            <h1 className='formed py-4'>
+              ASDEV Club was formed based on the <span className='text-[red]'>
+              burning <br /> desire </span> to offer services 
+            to our home town, Asaba. 
+
+            </h1>
+            <p className='fathers'>
+              The founding fathers felt that the best way to support our home town was to constitute <br />
+              ourselves into a formidable group that impacts lives of their members across the world and <br />
+              Asaba indigenes as a whole.
+
+            </p>
+
+          </div>
+
+
+          
+         </div>
       </div>
 
 
