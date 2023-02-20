@@ -28,15 +28,30 @@ const Community = () => {
     <>
     <div>
           
-        <div className="Discover px-8 pb-[80px]">
+        <div className="Discover bg-black px-8 lg:px-[100px] py-[80px]">
 
-          <img className='mx-auto py-8' src={discover} alt="" />
 
-          <div className="md:flex">
-            <div className="my-8 md:my-0"><img src={chero} alt="" /></div>
-            <div className="mx-auto"><img className="mx-auto" src={blob} alt="" /></div>
+          <div className="lg:flex">
+            <div className="my-8 md:my-0"><img className='mx-auto my-6 lg:my-0' src={chero} alt="" /></div>
+
+            <div className="mx-auto">
+            
+              <h1 className='say text-center text-[white]'>
+                
+                Say, <span className='text-[#F9567E]'> hello</span>
+                to <br /> the Execs!
+              </h1>
+              <p className='chapter py-6'>
+                We present the ASDEV Global Executives and <br /> their mission statements.
+                Here, you can find <br /> information about the individual Chapter <br /> formation.
+              </p>
+
+              <img className="mx-auto" src={blob} alt="" />
+            </div>
           </div>
         </div>
+
+
 
         <div className="px-8 lg:px-[100px] pb-[100px] bg-[#3E4345] py-10">
           <div className="">
