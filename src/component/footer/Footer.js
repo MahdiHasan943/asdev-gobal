@@ -8,6 +8,7 @@ import { SiFacebook,SiTwitter,SiInstagram } from "react-icons/si";
 
 
 import { BsEnvelope,BsEnvelopeFill } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -24,11 +25,10 @@ const Footer = () => {
       </div>
       <div className="flex text-center footermenu justify-center pt-10">
         <p>
-          Home  <span className='dot mx-[4px] sm:mx-[10px] '>•</span>  About Us  <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
-          Community  <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  Activities
-          <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  Announcements <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
-          Events  <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  Contact Us
-
+         <Link to={'/home'}> Home</Link>  <span className='dot mx-[4px] sm:mx-[10px] '>•</span> <Link to={'/about'}> About Us </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
+         <Link to={'/community'}> Community </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  <Link to={'/activities'}>Activities</Link>
+          <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  <Link to={'/announcements'}>Announcements</Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
+          <Link to={'/events'}>Events </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span> <Link to={'contact'}> Contact Us</Link>
           </p>
       </div>
       <div className="">
@@ -65,7 +65,7 @@ const Footer = () => {
 
           </span>         </div>
           
-        <p className='text-center pt-20 pb-8'>© asdev81club.com. All rights reserved. The best time to plant <br />
+        <p className='text-center pt-20 pb-8'>© asdev81.org | All rights reserved The best time to plant <br />
           a tree was 20 years ago. The second best time is now</p>
       </div>
 
