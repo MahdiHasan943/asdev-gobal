@@ -6,6 +6,7 @@ import './contact.css'
 import asdev from '../../images/contactImage/asdev1.png'
 import vector from '../../images/contactImage/Vector.png'
 import BG from '../../images/contactImage/BG.png'
+import { BsEnvelopeFill ,BsPersonFill,BsHouseDoor,BsPerson} from "react-icons/bs";
 
 
 
@@ -76,8 +77,7 @@ const Contact = () => {
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
                   <svg class="h-7 w-7 fill-slate-300" viewBox="0 0 20 20">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#098b99"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  <BsEnvelopeFill className='text-[#F3AA18]'/>
                   </svg>
   </span>
               </label>
@@ -91,8 +91,7 @@ const Contact = () => {
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
                   <svg class="h-7 w-7 fill-slate-300" viewBox="0 0 20 20">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#098b99"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  <BsPersonFill className='text-[#78909C]'/>
                   </svg>
   </span>
               </label>
@@ -106,8 +105,8 @@ const Contact = () => {
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
                   <svg class="h-7 w-7 fill-slate-300" viewBox="0 0 20 20">
+                  <BsHouseDoor className='text-[#78909C]'/>
 
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#098b99"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                   </svg>
   </span>
               </label>
@@ -122,21 +121,21 @@ const Contact = () => {
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
                   <svg class="h-7 w-7 fill-slate-300" viewBox="0 0 20 20">
 
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#098b99"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  <BsPerson className='text-[#78909C]'/>
                   </svg>
   </span>
               </label>
               </div> 
-              <div className="flex">
+              <div className="flex pt-4 pb-8">
                 
-              <input type="checkbox" className="border-white  rounded-none checkbox" />
+              <input type="checkbox" className="border-white outline-[#78909C]  rounded-none checkbox" />
                 <p className='px-4 read'>I have read and agree to everything I have to <br /> for the risk I am accepting
                   by checking this <br /> useless checkbox for your satisfaction. And <br /> for sure I did not read Terms of
 
                   Use</p>
 
               </div>
-              <button className='w-full btn submit py-4 px-8  hover:outline-none'>
+              <button className='w-full FBT btn submit py-4 px-8 hover:border-none border-none  hover:outline-none'>
                 Submit
               </button>
               

@@ -120,3 +120,32 @@ text-align: center;
 
 color: #F1F3F4;
 }
+
+.downloadBt{
+    /* Gradient Red */
+
+background: linear-gradient(90deg, #F4977B 0%, #F9567E 100%);
+/* Shadow Blue · 16dp */
+
+box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+border-radius: 99px;
+}
+.downloadText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: -0.01em;
+
+/* White Base */
+
+color: #FFFFFF;
+
+/* Shadow Dark · 4dp */
+
+text-shadow: 0px 4px 8px rgba(8, 35, 48, 0.16), 0px 2px 4px rgba(8, 35, 48, 0.24);
+
+}

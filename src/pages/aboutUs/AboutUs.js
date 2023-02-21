@@ -20,7 +20,7 @@ const AboutUs = () => {
       <div className="hero    flex justify-center  items-end xl:h-[615px] 2xl:h-[900px]  min-h-screen" style={{ backgroundImage: `url(${cleanpu})` }}>
            
         <div className="px-4 lg:px-0  lg:flex  lg:w-[90%]">
-          <div className="lg:w-[30%] rounded-sm ourStory px-10 py-10">
+          <div className="lg:w-[30%] animate-pop-in rounded-sm ourStory px-10 py-10">
                   <h1 className='py-4 ourStoryH1'>
                   Elite Asaba <br /> 
                   Club since 1981
@@ -29,7 +29,7 @@ const AboutUs = () => {
                   Our story
                   </p>
            
-                      <button className=" border py-3 pl-6 pr-[100px] relative text-white bg-none  outline-none "> Contact Us
+                      <button className=" border FBT py-3 pl-6 pr-[100px] relative text-white bg-none  outline-none "> Contact Us
               <span className='text-[white]  font-bold mx-4 absolute bottom-0 right-0'>
               <BsArrowRightShort className='text-[50px]' /> 
                         </span>
@@ -38,7 +38,7 @@ const AboutUs = () => {
                      
       
           </div>
-          <div className="lg:w-[70%] py-6 px-8 rounded-sm bg-[white] ">
+          <div className="lg:w-[70%] animate-pop-in OurStory2 py-6 px-8 rounded-sm bg-[white] ">
 
             <p className='founded py-6'>
               FOUNDED  <span className=' text-[gray]'>
@@ -110,7 +110,7 @@ in governance.</p>
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             
             {/* 1 */}
-            <div className="my-4 bg-[#5E6366] p-6 pb-[100px] shadow-lg">
+            <div className="my-4 bg-[#5E6366] ourTextBg p-6 pb-[100px] shadow-lg">
               <img className='mb-[-20px]' src={Button} alt="" />
               <p className='historyP'>Asaba in the early 1970s was the headquarters 
                 of the Asaba <br className='hidden lg:block' /> Urban Development Council of Bendel State. 

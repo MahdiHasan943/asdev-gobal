@@ -27,7 +27,7 @@ const ChapterBrief = () => {
 
 
         <h1 className='brief z-40'>Brief on Chapter Formation</h1>
-        <div className="flex z-40 items-center"><h1 className='lagos'>Lagos Chapter  </h1>        <img src={img4} alt="" /> </div>
+        <div className="flex z-40 items-center"><h1 className='lagos'>Lagos Chapter  </h1>                </div>
         {/* 1 */}
         <div className="">
         <p className='Bp pt-12'>
@@ -47,7 +47,7 @@ The Lagos Chapter had always taken the lead in several initiatives both for the 
         </p>
 
         <div className="     py-8">
-                  <button className='Bbtn    mb-[-90px]   flex justify-between py-6 px-12'>
+                  <button className='Bbtn  FBT  mb-[-90px]   flex justify-between py-6 px-12'>
                           <span className='BText'>
                           EXPLORE LAGOS CHAPTER </span>
                          <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>
@@ -57,7 +57,7 @@ The Lagos Chapter had always taken the lead in several initiatives both for the 
                   </div>
         </div>
         {/* 2 */}
-        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>Port Harcourt Chapter</h1>        <img src={img4} alt="" /> </div>
+        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>Port Harcourt Chapter</h1>                </div>
               
         <div className="">
         <p className='Bp pt-12'>
@@ -81,7 +81,7 @@ One of the highlights of the Port Harcourt Chapter activities was the symposium 
         </p>
 
         <div className="     py-8">
-                  <button className='Bbtn    mb-[-90px]   flex justify-between py-6 px-12'>
+                  <button className='Bbtn  FBT  mb-[-90px]   flex justify-between py-6 px-12'>
                           <span className='BText'>
                           EXPLORE PH CHAPTER </span>
                          <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>
@@ -92,7 +92,7 @@ One of the highlights of the Port Harcourt Chapter activities was the symposium 
         </div>
         {/* 3 */}
 
-        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>Abuja Chapter</h1>        <img src={img4} alt="" /> </div>
+        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>Abuja Chapter</h1>                </div>
               
               <div className="">
               <p className='Bp pt-12'>
@@ -114,7 +114,7 @@ The Chapter sponsored the formation of an Abuja based youth movement in 2011, ch
               </p>
       
               <div className="     py-8">
-                        <button className='Bbtn    mb-[-90px]   flex justify-between py-6 px-12'>
+                        <button className='Bbtn FBT   mb-[-90px]   flex justify-between py-6 px-12'>
                                 <span className='BText'>
                                 EXPLORE ABUJA CHAPTER </span>
                                <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>
@@ -127,7 +127,7 @@ The Chapter sponsored the formation of an Abuja based youth movement in 2011, ch
         {/* 4 */}
 
         <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>
-Asaba Chapter</h1>        <img src={img4} alt="" /> </div>
+Asaba Chapter</h1>                </div>
               
               <div className="">
               <p className='Bp pt-12'>
@@ -148,7 +148,7 @@ Since Asaba Chapter was launched, members have shown serious commitment to the A
               </p>
       
               <div className="     py-8">
-                        <button className='Bbtn    mb-[-90px]   flex justify-between py-6 px-12'>
+                        <button className='Bbtn  FBT  mb-[-90px]   flex justify-between py-6 px-12'>
                                 <span className='BText'>
                                 EXPLORE ASABA CHAPTER </span>
                                <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>
@@ -160,7 +160,7 @@ Since Asaba Chapter was launched, members have shown serious commitment to the A
 
         {/* 5 */}
 
-        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>US Chapter</h1>        <img src={img4} alt="" /> </div>
+        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>US Chapter</h1>                </div>
               
               <div className="">
               <p className='Bp pt-12'>
@@ -188,7 +188,7 @@ Since Asaba Chapter was launched, members have shown serious commitment to the A
               </p>
       
               <div className="     py-8">
-                        <button className='Bbtn    mb-[-90px]   flex justify-between py-6 px-12'>
+                        <button className='Bbtn  FBT  mb-[-90px]   flex justify-between py-6 px-12'>
                                 <span className='BText'>
                                 EXPLORE US CHAPTER</span>
                                <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>
@@ -200,7 +200,7 @@ Since Asaba Chapter was launched, members have shown serious commitment to the A
 
         {/* 6 */}
 
-        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>UK Chapter</h1>        <img src={img4} alt="" /> </div>
+        <div className="flex z-40 pt-14 items-center"><h1 className='lagos'>UK Chapter</h1>                </div>
               
               <div className="">
               <p className='Bp pt-12'>
@@ -224,7 +224,7 @@ Like the USA Chapter, members of the UK Chapter have also supported the National
               </p>
       
               <div className="     py-8">
-                        <button className='Bbtn    mb-[-90px]   flex justify-between py-6 px-12'>
+                        <button className='Bbtn FBT   mb-[-90px]   flex justify-between py-6 px-12'>
                                 <span className='BText'>
                                 EXPLORE UK CHAPTER </span>
                                <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>

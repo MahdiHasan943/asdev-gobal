@@ -83,7 +83,7 @@ const Event = () => {
               people.
             </p>
             <div className="py-8">
-                        <button className='view  mb-[-90px]   flex justify-between py-6 px-12'>
+                        <button className='view FBT mb-[-90px]   flex justify-between py-6 px-12'>
                                 <span className='event'>
                                 VIEW ALL ASDEV 81 EVENTS </span>
                                <span className='text-[#367BF5] font-bold mx-4'> <BsChevronRight />  </span>
@@ -178,7 +178,7 @@ const Event = () => {
               <img className='mx-auto' src={SImageThree} alt="" />
               <img  className='mx-auto mt-4' src={SImageSix} alt="" />
               <div className="    py-8">
-                        <button className='Bbtn   mx-auto  mb-[-90px]    flex justify-between py-6 px-12'>
+                        <button className='Bbtn FBT  mx-auto  mb-[-90px]    flex justify-between py-6 px-12'>
                                 <span className='BText'>
                                 More Event </span>
                                <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>
@@ -248,9 +248,9 @@ const Event = () => {
           </div>
           <div>
             
-            <div className="flex items-end  h-[100%]  ">
+            <div className="flex items-end FBT h-[100%]  ">
             <div className="flex py-4 justify-between  w-[100%] sm:w-[80%] lg:w-[500px] px-10 boxT ">
-              <button className='${color}' >   <span className='address sm:text-[20px]'>E-mail address</span></button>
+              <button className='${color} ' >   <span className='address sm:text-[20px]'>E-mail address</span></button>
                 <button className='bg-[#367BF5] py-1 rounded-full px-4 sm:px-14' onClick={() => setColor('blue')} >
                   <span className='RSVP sm:text-[24px]'> RSVP</span> </button>
             </div>

@@ -25,15 +25,15 @@ const Footer = () => {
       </div>
       <div className="flex text-center footermenu justify-center pt-10">
         <p>
-         <Link to={'/home'}> Home</Link>  <span className='dot mx-[4px] sm:mx-[10px] '>•</span> <Link to={'/about'}> About Us </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
-         <Link to={'/community'}> Community </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  <Link to={'/activities'}>Activities</Link>
+         <Link className='' to={'/home'}> Home</Link>  <span className='dot mx-[4px] sm:mx-[10px] '>•</span> <Link className='fmenu' to={'/about'}> About Us </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
+         <Link className='fmenu' to={'/community'}> Community </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  <Link className='fmenu' to={'/activities'}>Activities</Link>
           <span className='dot mx-[4px] sm:mx-[10px]'>•</span>  <Link to={'/announcements'}>Announcements</Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span>
-          <Link to={'/events'}>Events </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span> <Link to={'contact'}> Contact Us</Link>
+          <Link className='fmenu' to={'/events'}>Events </Link> <span className='dot mx-[4px] sm:mx-[10px]'>•</span> <Link className='fmenu' to={'contact'}> Contact Us</Link>
           </p>
       </div>
       <div className="">
       
-        <div className="flex  justify-center py-20 rounded-[4px]">
+        <div className="flex FBT  justify-center py-20 rounded-[4px]">
         <label class="relative box  block">
   <span class="sr-only">Search</span>
   <span class="absolute inset-y-0 bottom-0 top-1 left-1 flex items-center pl-2">
@@ -54,18 +54,18 @@ const Footer = () => {
           
           <span className=''>
             
-            <SiFacebook className='mx-4 text-[40px] sm:w-[56px] sm:h-[56px]  rounded-full text-[#4267B2]  ' /></span>
+            <SiFacebook className='mx-4 icon text-[40px] sm:w-[56px] sm:h-[56px]  rounded-full text-[#4267B2]  ' /></span>
               
           <span className='mx-4 sm:w-[56px] sm:h-[56px] flex justify-center items-center bg-[#1DA1F2] rounded-full'>
-          <SiTwitter className=' rounded-full text-white text-[40px]'/> 
+          <SiTwitter className='icon rounded-full text-white text-[40px]'/> 
 
           </span>
           <span className='mx-4 sm:w-[56px] sm:h-[56px] flex justify-center items-center bg-[#78909C] rounded-full'>
-          <SiInstagram className=' rounded-full text-white text-[40px]'/> 
+          <SiInstagram className='icon rounded-full text-white text-[40px]'/> 
 
           </span>         </div>
           
-        <p className='text-center pt-20 pb-8'>© asdev81.org | All rights reserved </p>
+        <p className='text-center reserve pt-20 pb-8'>© asdev81.org | All rights reserved </p>
       </div>
 
 

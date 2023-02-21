@@ -34,7 +34,7 @@ const TodayAsaba = () => {
                               Asaba people in general.
               </p>
               <div className="    flex items-center py-8">
-                  <button className='discoverbtn mx-auto    mb-[-90px]   flex justify-between py-6 px-12'>
+                  <button className='discoverbtn mx-auto  FBT  mb-[-90px]   flex justify-between py-6 px-12'>
                           <span className='discoverText'>
                               Discover ASDEV81 Community </span>
                          <span className='text-[black] font-bold mx-4'> <BsChevronRight />  </span>

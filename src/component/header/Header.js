@@ -134,13 +134,13 @@ const Header = () => {
           <div className="sm:flex  borders  justify-between py-[12px]  ">
          
         <div className="flex  justify-center sm:justify-start items-center">
-            <Link to={'/'}><img src={Logo} alt="" /></Link>
-            <h1 className=' ASDEV'>ASDEV 81 Club Global</h1>
+            <Link to={'/'}><img className='HeaderLogo animate-pop-in' src={Logo} alt="" /></Link>
+            <h1 className='animate-pop-in ASDEV'>ASDEV 81 Club Global</h1>
 
         </div>
         <div className="flex justify-center sm:justify-start items-center">
-            <p className='download sm:mx-4'>DOWNLOAD</p>
-            <p className='register mx-4 '>Register</p>
+            <p className='download rounded-full sm:mx-4'>DOWNLOAD</p>
+            <p className='register rounded-full mx-4 '>Register</p>
             <p className='signIn  rounded-full  sm:mx-4'>Sign In</p>
 
         </div>

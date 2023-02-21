@@ -26,7 +26,7 @@ const Asaba = () => {
                   Asaba people.
               </p>
               <div className="text-start sm:flex items-center py-8">
-                  <button className='button py-4 px-16'>
+                  <button className='button FBT py-4 px-16'>
                           <span className='btText'>
                           CLUB ACTIVITIES
                  </span>

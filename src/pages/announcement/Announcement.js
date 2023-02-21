@@ -48,7 +48,7 @@ const Announcement = () => {
                   <h1 className='have pt-6'>Have something say?</h1>
                   <p className='let text-center py-6 text-[#3E4345]'>Let us tell the world about your <br /> next big thing • 
                     <span className='text-[#57CBAF]'>Were open now</span></p>
-                  <button className='BTbg py-3 px-4 sm:px-8 md:px-0 2xl:px-8 rounded-md w-full'>
+                  <button className='BTbg FBT py-3 px-4 sm:px-8 md:px-0 2xl:px-8 rounded-md w-full'>
                  <span className='book'> Book your ad space!</span>
                   </button>
                   
@@ -69,7 +69,7 @@ const Announcement = () => {
                   <h1 className='have pt-6'>Have something say?</h1>
                   <p className='let text-center py-6 text-[#3E4345]'>Let us tell the world about your <br /> next big thing • 
                     <span className='text-[#57CBAF]'>Were open now</span></p>
-                  <button className='BTbg py-3 px-4 sm:px-8 md:px-0 2xl:px-8 rounded-md w-full'>
+                  <button className='BTbg FBT py-3 px-4 sm:px-8 md:px-0 2xl:px-8 rounded-md w-full'>
                  <span className='book justify-center'> Book your ad space!</span>
                   </button>
                   
@@ -122,7 +122,7 @@ const Announcement = () => {
                   Copy and paste into most storytelling UI pieces <br /> from your appliaction and equip with a description.
                   </p>
                   <div className="flex justify-center">
-                  <button className=' border bottom-1 rounded-full border-[white] flex justify-between py-6 px-12'>
+                  <button className=' border bottom-1 FBT rounded-full border-[white] flex justify-between py-6 px-12'>
                                 <span className='text-white'>
                                 Use this method </span>
                                <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
@@ -134,7 +134,7 @@ const Announcement = () => {
               </div>
               {/* 2 grid */}
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+              <div className="grid overflow-hidden grid-cols-1 lg:grid-cols-2 gap-5">
 
               <div className="GridThree py-6">
 
@@ -150,7 +150,7 @@ const Announcement = () => {
             For smart teams who want to release apps faster <br /> with Setproduct items by publishing into a library
             </p>
               <div className="flex justify-center">
-              <button className=' border bottom-1 rounded-full border-[white] flex justify-between py-6 px-12'>
+              <button className='FBT border bottom-1 rounded-full border-[white] flex justify-between py-6 px-12'>
                             <span className='text-white'>
                             Quickstart your project </span>
                           <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
@@ -179,7 +179,7 @@ Impact users better. <br />
 • Several Google.Fonts declared as <br /> Figma styles for base typography. <br /> You are free to choose!
                   </p>
                   <div className="flex justify-center">
-                  <button className=' border bottom-1 rounded-full border-[white] flex justify-between py-6 px-4'>
+                  <button className='FBT border bottom-1 rounded-full border-[white] flex justify-between py-6 px-4'>
                                 <span className='text-white'>
                                 Download Fapapp now! </span>
                                <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
@@ -206,11 +206,11 @@ Impact users better. <br />
         {/* 3 */}
 
         <section>
-        <div  className="bg-[#3E4345] pt-[50px] pb-[150px]">
+        <div  className="bg-[#3E4345] pt-[100px] pb-[150px]">
           <div className="px-[20px] lg:px-[120px]">
 
               <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
-                <div className="">
+                <div className="mt-8 my-6 lg:my-0">
                   <h1 className='what'>
                   What’s Up?
                   </h1>
@@ -226,7 +226,7 @@ Impact users better. <br />
                     platform and showcase your new business or let the world know
                     when you are celebrating an achievement.</p>
                 </div>
-                <div className="">
+                <div className=" h-[100%] mt-12 2xl:mt-0">
                   <div className="FormHeader py-4 text-center">
                     <p className='Contact'>Contact us for our Ad placing pricing</p>
                   </div>
@@ -234,26 +234,26 @@ Impact users better. <br />
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 form-control">
                       <div className="">
                       
-          <input type="text" placeholder="First Name" className="input w-full text-white bg-[#242728] border-[#F6D365] input-bordered" />
+          <input type="text" placeholder="First Name" className="input py-8 w-full text-white bg-[#242728] border-[#F6D365] input-bordered" />
                       </div>
                       <div className="">
                     
-          <input type="text" placeholder="Last Name" className="input w-full text-white bg-[#242728] border-[#919699] input-bordered" />
+          <input type="text" placeholder="Last Name" className="input py-8 w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                  </div>
         </div>
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 form-control">
                       <div className="overflow-hidden">
                     
-          <input type="text" placeholder="Email Address" className="input w-full text-white bg-[#242728] border-[#919699] input-bordered" />
+          <input type="text" placeholder="Email Address" className="input py-8 w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                       </div>
                       <div className="overflow-hidden">
         
-          <input type="text" placeholder="Phone Number" className="input w-full text-white bg-[#242728] border-[#919699] input-bordered" />
+          <input type="text" placeholder="Phone Number" className="input py-8 w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                  </div>
         </div>
         <div className="form-control mt-6">
-                      <button className="btn  relative text-black btngold">Submit
-                      <span className='text-[black] font-bold mx-4 absolute right-0'> <BsArrowRightShort className='text-[50px]' />  </span>
+                      <button className="btn FBT relative text-black btngold">Submit
+                      <span className='text-[black] font-bold mx-4 absolute right-0'> <BsArrowRightShort className='text-[30px]' />  </span>
                       </button>
                       <p className='text-center py-3 text-[#C6CACC]'>
                       You have to read our website <span className='text-[#367BF5] '>Terms and Services</span>
