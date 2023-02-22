@@ -24,6 +24,7 @@ import user from '../../images/activitiesImage/user.jpg'
 import arrow from '../../images/activitiesImage/arrow.jpg'
 
 import sidebar from '../../images/activitiesImage/sidebar.png'
+import GoToTop from '../../component/GoToTop'
 
 
 
@@ -178,7 +179,8 @@ const Activities = () => {
           
              
         </section>
-        
+        <GoToTop></GoToTop>
+
 </div>
     </>
   )

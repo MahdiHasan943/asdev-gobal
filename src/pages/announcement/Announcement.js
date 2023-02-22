@@ -14,6 +14,7 @@ import vector from '../../images/announcementImage/Vector.png'
 import Mack from '../../images/announcementImage/Macbook33.png'
 
 import we from '../../images/announcementImage/we.png'
+import GoToTop from '../../component/GoToTop';
 
 
 const Announcement = () => {
@@ -28,7 +29,7 @@ const Announcement = () => {
         <div  className="bg-[#3E4345] pt-[50px] pb-[150px]">
           <div className="px-[20px] lg:px-[120px]">
 
-            <img src={we} alt="" />
+            {/* <img src={we} alt="" /> */}
             
             <div className="  relative">
             <div className='py-10 lg:w-[80%] h-auto ' >
@@ -272,7 +273,8 @@ Impact users better. <br />
 
 
         
-       </div>
+      </div>
+      <GoToTop></GoToTop>
 
     </div>
   )

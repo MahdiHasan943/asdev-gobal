@@ -10,6 +10,7 @@ import { BsArrowRightShort ,BsChevronRight} from "react-icons/bs";
 
 
  import './aboutUs.css'
+import GoToTop from '../../component/GoToTop'
 
 const AboutUs = () => {
 
@@ -208,7 +209,8 @@ in governance.</p>
 
               </div>
       </div>
-
+        
+      <GoToTop></GoToTop>
     </div>
   )
 }

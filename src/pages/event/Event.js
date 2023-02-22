@@ -30,6 +30,7 @@ import SImageSeven from '../../images/eventsImage/Showcase/Image7.png'
 import SImageEight from '../../images/eventsImage/Showcase/Image8.png'
 
 import { BsChevronRight } from "react-icons/bs";
+import GoToTop from '../../component/GoToTop'
 
 
 
@@ -269,7 +270,7 @@ const Event = () => {
 
       </section>
 
-
+      <GoToTop></GoToTop>
     </div>
   )
 }

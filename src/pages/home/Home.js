@@ -1,4 +1,5 @@
 import React from 'react'
+import GoToTop from '../../component/GoToTop'
 import useTitle from '../../component/hook/useTitle'
 import Asaba from './Asaba'
 import Club from './Club'
@@ -19,6 +20,7 @@ const Home = () => {
 
       <TodayAsaba></TodayAsaba>
       <Join></Join>
+      <GoToTop></GoToTop>
           
       </div>
   )

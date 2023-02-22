@@ -49,9 +49,27 @@
   }
   .navmenuTrack{
 
-    background: #F7F9FA;
+    background: #9BAAFA;
     /* padding: 12px 20px; */
-   
+/* Body 1 / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.44px;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+
+    
   }
   li:hover{
     
@@ -117,3 +135,15 @@
 }
 
 
+
+
+.nav{
+  top: 0; 
+   left: 0; 
+  width: 100%;
+  z-index: 999;
+  position: sticky;
+  animation: fadeInDown .5s ease-in-out 0s 1 normal none running;
+
+  background-color: #fff!important;
+}

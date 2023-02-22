@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className="App shadow-md overflow-hidden  scroll-smooth bg-[white] max-w-[1920px] mx-auto">
+    <div className="App shadow-md   scroll-smooth bg-[white] max-w-[1920px] mx-auto">
      
       {loading ?
         <div className='flex justify-center items-center h-[100vh] w-full'>

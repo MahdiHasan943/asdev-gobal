@@ -7,6 +7,7 @@ import asdev from '../../images/contactImage/asdev1.png'
 import vector from '../../images/contactImage/Vector.png'
 import BG from '../../images/contactImage/BG.png'
 import { BsEnvelopeFill ,BsPersonFill,BsHouseDoor,BsPerson} from "react-icons/bs";
+import GoToTop from '../../component/GoToTop'
 
 
 
@@ -144,7 +145,7 @@ const Contact = () => {
         </div>
       </section>
 
-
+        <GoToTop></GoToTop>
     </div>
   )
 }

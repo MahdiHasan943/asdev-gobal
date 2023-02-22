@@ -36,7 +36,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive
                     ? ' font1 navmenuTrack px-[10px] py-[8px]        xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
-                    : 'navmenuUnTrack  font1 px-[10px] py-[8px]        xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
+                    : 'navmenuUnTrack  font1 px-[12px] py-[8px]        xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
                 }
               >
              About the Club
@@ -130,7 +130,7 @@ const Header = () => {
   return (
     <>
       
-          <header className='px-10 sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
+          <header className='px-10  sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
           <div className="sm:flex  borders  justify-between py-[12px]  ">
          
         <div className="flex  justify-center sm:justify-start items-center">
@@ -147,7 +147,10 @@ const Header = () => {
  
     </div>
     
-<div className=' nav  '>
+
+ 
+      </header>
+      <div className='nav shadow-md lg:shadow-sm px-10  py-6 sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
         <div className='  flex it py-6 mx-auto  '>
        
            
@@ -189,7 +192,7 @@ const Header = () => {
   
     <div className=" ml-auto lg:px-[20px]">
    
-    <label class="hidden lg:block relative block">
+    <label class="hidden  lg:block relative block">
 <span class="sr-only">Search</span>
 <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                         <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">
@@ -201,10 +204,21 @@ const Header = () => {
 <input class=" placeholder:text-[#919699] block bg-white w-full border border-slate-300 rounded-full py-2 pl-9 pr-3 shadow-sm focus:outline-[#E3E5E5]  focus:[#E3E5E5]  focus:ring-1 sm:text-sm" placeholder="Search " type="text" name="search"/>
 </label>
                
-                <div className='lg:hidden'>
-                    
+                <div className='lg:hidden py-4 overflow-hidden  flex justify-between'>
+                <div class="mr-[20px] sm:mr-[200px] relative">
+<span class="sr-only">Search</span>
+<span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#78909C"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+
+
+</svg>
+</span>
+<input class=" placeholder:text-[#919699] block bg-white w-full border border-slate-300 rounded-full py-3 pl-9 pr-3 sm:pl-16 sm:pr-10 shadow-sm focus:outline-[#E3E5E5]  focus:[#E3E5E5]  focus:ring-1 sm:text-sm" placeholder="Search " type="text" name="search"/>
+</div>
      
-        {isMenuOpen ? (
+              <div className="">
+              {isMenuOpen ? (
           
           <motion.button
           animate={{
@@ -264,6 +278,7 @@ const Header = () => {
                         
                         
      }
+       </div>
                     
     
                 </div>
@@ -297,8 +312,6 @@ const Header = () => {
         </div>
       )}
 </div>
- 
-   </header>
          
       </>
   )

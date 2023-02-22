@@ -22,6 +22,7 @@ import { BsChevronRight } from "react-icons/bs";
 import Download from '../../images/communityImage/Vector (1).png'
 
 import { motion, useScroll } from "framer-motion"
+import GoToTop from '../../component/GoToTop'
 
 const Community = () => {
   const { scrollYProgress,scrollRef } = useScroll();
@@ -180,6 +181,7 @@ const Community = () => {
       <ChapterChair></ChapterChair>
       
       <ChapterBrief></ChapterBrief>
+      <GoToTop></GoToTop>
     </>
   )
 }
