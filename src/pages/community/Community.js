@@ -82,7 +82,7 @@ const Community = () => {
     y: -7,
     scale: 1,
     rotate: 0,
-  }}  className="bg  py-12 px-6">
+  }}  className="bg bgHover  py-12 px-6">
                 <img className=' shadow-2xl z-50' src={img1} alt="" />
                   <p className='need py-4'>“Needless to say we are extremely satisfied with the results. Setproduct is the real deal! I don't know what else to say. No matter where you go, Setproduct is the coolest, most happening thing around!”</p>
                 <div className="flex ">
@@ -101,7 +101,7 @@ const Community = () => {
                   scale: 1,
                   rotate: 0,
                 }} 
-                className="bg  py-12 px-6">
+                className="bg bgHover py-12 px-6">
                 <img className=' shadow-2xl z-50' src={img2} alt="" />
                   <p className='need py-4'>"Great job, I will definitely be ordering again! Setproduct is the most valuable business resource we have EVER purchased. Needless to say we are extremely satisfied with the results. Great job, I will definitely be ordering again!"</p>
                 <div className="flex ">
@@ -139,7 +139,7 @@ const Community = () => {
                 y: -7,
                 scale: 1,
                 rotate: 0,
-              }}   className="bg  py-6 px-6">
+              }}   className="bg bgHover py-6 px-6">
                 <img className=' shadow-2xl  z-50' src={img5} alt="" />
                   <p className='need py-4'>"No matter where you go, Setproduct is the coolest, most happening thing around! Setproduct is awesome!"</p>
                 <div className="flex mt-6 ">
@@ -158,7 +158,7 @@ const Community = () => {
                 y: -7,
                 scale: 1,
                 rotate: 0,
-              }}  className="bg  py-6 px-6">
+              }}  className="bg bgHover  py-6 px-6">
                 <img className=' shadow-2xl z-50' src={img7} alt="" />
                   <p className='need py-4'>"I have gotten at least 50 times the value from Setproduct. It's exactly what I've been looking for. I just can't get enough of Setproduct.”</p>
                 <div className="flex mt-6 ">

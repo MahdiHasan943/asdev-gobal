@@ -73,7 +73,7 @@ const Contact = () => {
             <div className=" form-control    ">
             <label class="relative block">
   
-  <input class="    bg-[#3E4345] w-full h-[55px] px-4  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Email Address" type="text" name="search"/>
+  <input class="    bg-[#3E4345] w-full h-[55px] px-4 text-white focus:text-[black]  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Email Address" type="text" name="search"/>
   
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
@@ -87,7 +87,7 @@ const Contact = () => {
               <div className="py-4  form-control    ">
             <label class="relative block">
   
-  <input class="    bg-[#3E4345] w-full h-[55px] px-4  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Full Name" type="text" name="search"/>
+  <input class="    bg-[#3E4345] w-full h-[55px] px-4 text-white focus:text-[black] placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Full Name" type="text" name="search"/>
   
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
@@ -101,7 +101,7 @@ const Contact = () => {
               <div className=" form-control    ">
             <label class="relative block">
   
-  <input class="    bg-[#3E4345] w-full h-[55px] px-4  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Home Address" type="text" name="search"/>
+  <input class="    bg-[#3E4345] w-full h-[55px] px-4 text-white focus:text-[black]  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Home Address" type="text" name="search"/>
   
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
@@ -116,7 +116,7 @@ const Contact = () => {
               <div className="py-4 form-control    ">
             <label class="relative block">
   
-  <input class="    bg-[#3E4345] w-full h-[55px] px-4  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Phone" type="text" name="search"/>
+  <input class="    bg-[#3E4345] w-full h-[55px] px-4 text-white focus:text-[black]  placeholder:text-[16px] placeholder:text-[gray]  input  rounded-sm  shadow-sm focus:bg-[white] focus:outline-[#098b99] sm:text-sm" placeholder="Phone" type="text" name="search"/>
   
   <span class="sr-only">Search</span>
   <span class="absolute  inset-y-0 right-4 flex items-center pl-2">
@@ -127,9 +127,18 @@ const Contact = () => {
   </span>
               </label>
               </div> 
+              <select className="select mb-4 h-[55px] textarea bg-[#3E4345] rounded-none text-white focus:text-[black] w-full focus:bg-[white] focus:outline-[#098b99] select-ghost ">
+  <option  selected>Select</option>
+  <option>Best</option>
+  <option>Middle</option>
+  <option>Lower</option>
+</select>
+              <textarea className="textarea bg-[#3E4345] rounded-none text-white focus:text-[black] w-full focus:bg-[white] focus:outline-[#098b99] " placeholder="Write About You"></textarea>
+
               <div className="flex pt-4 pb-8">
                 
-              <input type="checkbox" className="border-white outline-[#78909C]  rounded-none checkbox" />
+              <input type="checkbox" className="border-white bg-[#3E4345] outline-[#78909C]  rounded-none checkbox" />
+              
                 <p className='px-4 read'>I have read and agree to everything I have to <br /> for the risk I am accepting
                   by checking this <br /> useless checkbox for your satisfaction. And <br /> for sure I did not read Terms of
 

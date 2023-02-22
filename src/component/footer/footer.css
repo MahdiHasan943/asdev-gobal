@@ -43,7 +43,7 @@ linear-gradient(0deg, #C6CACC, #C6CACC);
 }
 .reserve:hover{
      
-    scale: 1.1;
+    scale: 1.04;
     transition: all .5s ease;
 
   
@@ -51,10 +51,11 @@ linear-gradient(0deg, #C6CACC, #C6CACC);
 }
 
 .FBT:hover{
-    transform: scaleX(1.1) scaleY(1.1 );
+    transform: scaleX(1.04) scaleY(1.1 );
     transition: all .5s ease;
     
   }
+
 
 
 

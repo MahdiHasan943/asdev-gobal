@@ -35,7 +35,7 @@ const ChapterChair = () => {
             y: -7,
             scale: 1,
             rotate: 0,
-          }}   className=" bgBlue1  py-6 px-6">
+          }}   className=" bgBlue1 bgHoverWhite  py-6 px-6">
           <img className=' shadow-2xl  z-50' src={img5} alt="" />
 
             <p className=' need1 py-4'>"Nice work on your Setproduct. Thank you for making it
@@ -55,7 +55,7 @@ const ChapterChair = () => {
             y: -7,
             scale: 1,
             rotate: 0,
-          }}  className="bg-[#F7F9FA]  shadow py-6 px-6">
+          }}  className="bg-[#F7F9FA] bgHoverWhite  shadow py-6 px-6">
               <img className=' shadow-2xl z-50' src={img3} alt="" />
                   <p className=' need1 py-4'>"No matter where you go, Setproduct is the coolest, most happening thing around! Setproduct is awesome!"</p>
                 <div className="flex mt-6 ">
@@ -74,7 +74,7 @@ const ChapterChair = () => {
             y: -7,
             scale: 1,
             rotate: 0,
-          }}  className="bg-[#F7F9FA]  shadow py-6 px-6">
+          }}  className="bg-[#F7F9FA] bgHoverWhite  shadow py-6 px-6">
                 <img className=' shadow-2xl z-50' src={img7} alt="" />
                   <p className=' need1 py-4'>"I have gotten at least 50 times the value from Setproduct. It's exactly what I've been looking for. I just can't get enough of Setproduct.”</p>
                 <div className="flex mt-6 ">
@@ -96,7 +96,7 @@ const ChapterChair = () => {
             y: 7,
             scale: 1,
             rotate: 0,
-          }}  className=" bgBlue1  py-6 px-6">
+          }}  className=" bgBlue1 bgHoverWhite  py-6 px-6">
           <img className=' shadow-2xl  z-50' src={img5} alt="" />
 
             <p className=' need1 py-4'>"Nice work on your Setproduct. Thank you for making it
@@ -116,7 +116,7 @@ const ChapterChair = () => {
             y: 7,
             scale: 1,
             rotate: 0,
-          }}  className="bg-[#F7F9FA]  shadow py-6 px-6">
+          }}  className="bg-[#F7F9FA] bgHoverWhite  shadow py-6 px-6">
               <img className=' shadow-2xl z-50' src={img3} alt="" />
                   <p className=' need1 py-4'>"No matter where you go, Setproduct is the coolest, most happening thing around! Setproduct is awesome!"</p>
                 <div className="flex mt-6 ">
@@ -135,7 +135,7 @@ const ChapterChair = () => {
             y: 7,
             scale: 1,
             rotate: 0,
-          }}  className="bg-[#F7F9FA]  shadow py-6 px-6">
+          }}  className="bg-[#F7F9FA] bgHoverWhite  shadow py-6 px-6">
                 <img className=' shadow-2xl z-50' src={img7} alt="" />
                   <p className=' need1 py-4'>"I have gotten at least 50 times the value from Setproduct. It's exactly what I've been looking for. I just can't get enough of Setproduct.”</p>
                 <div className="flex mt-6 ">

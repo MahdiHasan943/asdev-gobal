@@ -251,7 +251,13 @@ Impact users better. <br />
         
           <input type="text" placeholder="Phone Number" className="input py-8 w-full text-white bg-[#242728] border-[#919699] input-bordered" />
                  </div>
-        </div>
+                    </div>
+                    
+                    <div className=" overflow-hidden">
+        
+                    <textarea className="textarea bg-[#242728] border-[#919699] text-white w-full" placeholder="Write A Massage"></textarea>
+                    </div>
+                    
         <div className="form-control mt-6">
                       <button className="btn FBT relative text-black btngold">Submit
                       <span className='text-[black] font-bold mx-4 absolute right-0'> <BsArrowRightShort className='text-[30px]' />  </span>

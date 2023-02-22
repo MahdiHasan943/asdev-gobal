@@ -127,7 +127,7 @@ in governance.</p>
             </div>
 
              {/* 2 */}
-            <div className="my-4">
+            <div className="my-4 hover:bg-[#5E6366] duration-200">
               <p className='p-6 historyP'>This situation was the exact opposite of what Asaba had been
                 before the civil war.  The small town was bubbly, social life was
                 at its peak with a lot of students’ union activities.  It was fun
@@ -138,7 +138,7 @@ in governance.</p>
                 found themselves in an awkward situation.    </p>
             </div>
                  {/* 3 */}
-                 <div className="my-4">
+                 <div className="my-4 hover:bg-[#5E6366] duration-200">
               <p className='p-6 historyP'>Asaba Development Union (ADU) is the umbrella body of all Asaba associations.  Every Asaba indigene
                 was expected to belong to a Chapter of the ADU.  The leadership of the ADU at
                 the time in all the Chapters were mostly elderly people, therefore, discussion
@@ -152,7 +152,7 @@ in governance.</p>
             </div>
 
             {/* 4 */}
-            <div className="my-4">
+            <div className="my-4 hover:bg-[#5E6366] duration-200">
               <p className='p-6 historyP'>
                 Falcon Club membership comprised of successful Asaba indigenes from all walks of life –
                 Civil service, Professionals and Businessmen determined to change the narrative
@@ -167,7 +167,7 @@ in governance.</p>
             </div>
               {/* 5 */}
 
-            <div className="my-4">
+            <div className="my-4 hover:bg-[#5E6366] duration-200">
               <p className='p-6 historyP'>
                 These five gentlemen were all under 40 years old and the average age of 
                 Falcon Club members at the time was 45 years.  They got together and 
@@ -185,7 +185,7 @@ in governance.</p>
                 </p>
             </div>
                {/* 6 */}
-            <div className="my-4">
+            <div className="my-4 hover:bg-[#5E6366]  duration-200">
               <p className='p-6 historyP'>
                 However, only Lagos remained a Chapter, because the other towns did not have
                 sufficient members to constitute Chapters.
