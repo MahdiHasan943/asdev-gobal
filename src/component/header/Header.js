@@ -140,8 +140,14 @@ const Header = () => {
         </div>
         <div className="flex justify-center sm:justify-start items-center">
             <p className='download rounded-full sm:mx-4'>DOWNLOAD</p>
+            <Link to={'/register'}>
             <p className='register rounded-full mx-4 '>Register</p>
-            <p className='signIn  rounded-full  sm:mx-4'>Sign In</p>
+            </Link>
+
+            <Link to={'login'}>
+              <p className='signIn  rounded-full  sm:mx-4'>Sign In</p>
+            
+            </Link>
 
         </div>
  

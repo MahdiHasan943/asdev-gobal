@@ -21,6 +21,64 @@ text-fill-color: transparent;
 
 }
 
+
+
+/*starts style for login and registration pages  */
+
+
+
+.photo{
+    
+color: #F6D365;
+opacity: 1;
+
+
+}
+
+.already{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+.please{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.LoginH1{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #F6D365 30%, #FDA085 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+.LoginBtn{
+    font-family: 'Poppins';
+    font-style: normal;
+    color: rgb(25, 79, 104);
+    font-weight: 600;
+    background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+    border-radius: 8px;
+   width: 100%;
+   padding: 14px 0;
+}
+
+
+
+/* end style for login and registration pages  */
+
 .Like{
     font-family: 'Roboto';
 font-style: normal;

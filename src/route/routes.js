@@ -1,5 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"
 import Error from "../component/error/Error"
+import Login from "../component/login&regiser/Login"
+import Register from "../component/login&regiser/Register"
 import Main from "../layout/main/Main"
 import AboutUs from "../pages/aboutUs/AboutUs"
 import Activities from "../pages/activities/Activities"
@@ -48,6 +50,14 @@ export const router = createBrowserRouter([
             {
                 path: '/contact',
                 element:<Contact></Contact>
+            },
+            {
+                path: '/login',
+                element:<Login></Login>
+            },
+            {
+                path: '/register',
+                element:<Register></Register>
             },
             
             

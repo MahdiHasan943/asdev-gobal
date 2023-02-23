@@ -4,6 +4,8 @@ import { RouterProvider } from 'react-router-dom';
 import './App.css';
 import GoToTop from './component/BackToTop/GoToTop';
 import { router } from './route/routes';
+import { toast, Toaster } from 'react-hot-toast';
+
 
 function App() {
 
@@ -30,7 +32,9 @@ function App() {
         <RouterProvider router={router}>
      
         </RouterProvider>
-             <GoToTop/>
+          <GoToTop />
+          <Toaster></Toaster>
+
         
 </>
        
