@@ -50,27 +50,27 @@ const TodayAsaba = () => {
 
               <div className="lg:w-[50%] ">
                   
-              <div className="flex justify-center lg:justify-end  mt-[120px]  lg:mt-[-00px]">
+              <div className="sm:flex justify-center lg:justify-end  mt-[120px]  lg:mt-[-00px]">
                   <div className="">
-                      <img className='mr-[20px] mt-[50px]' src={ImageOne} alt="" />
+                      <img className='mx-auto sm:mr-[20px] mt-[50px]' src={ImageOne} alt="" />
                   </div>
                   <div className="">
-                      <img src={Imagetwo} alt="" />
-                      <img src={Imagethree} alt="" />
+                      <img className='mx-auto' src={Imagetwo} alt="" />
+                      <img className='mx-auto' src={Imagethree} alt="" />
                   </div>
               </div>
 
 
               <div className="">
-                  <div className="flex justify-center lg:justify-end mt-[30px]">
-                      <img className='mx-4' src={ImageFour} alt="" />
-                      <img src={ImageFive} alt="" />
+                  <div className="sm:flex justify-center lg:justify-end mt-[30px]">
+                      <img className='mx-auto sm:mx-4' src={ImageFour} alt="" />
+                      <img className='mt-4 sm:mt-0 mx-auto sm:mx-[1px]' src={ImageFive} alt="" />
                   </div>
 
-                  <div className="flex justify-center lg:justify-end mt-[30px]">
-                      <img src={ImageSix} alt="" />
-                      <img className='mx-4' src={ImageSeven} alt="" />
-                      <img src={ImageEight} alt="" />
+                  <div className="sm:flex  justify-center lg:justify-end mt-[30px]">
+                      <img className='mx-auto sm:mx-[0.1px]' src={ImageSix} alt="" />
+                      <img className='mx-auto my-3 sm:my-0 sm:mx-4' src={ImageSeven} alt="" />
+                      <img className='mx-auto sm:mx-[0.1px]' src={ImageEight} alt="" />
                   </div>
                   
               </div>

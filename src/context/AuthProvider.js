@@ -53,7 +53,6 @@ console.log(user);
   // 5. Logout
   const logout = () => {
     setLoading(true)
-    localStorage.removeItem('aircnc-token')
     return signOut(auth)
   }
 

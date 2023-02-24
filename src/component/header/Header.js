@@ -5,23 +5,35 @@ import { FaPhoneVolume } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
 import { BsCartCheck,BsArrowRightShort } from "react-icons/bs";
 import { BiRightArrowAlt } from "react-icons/bi";
+import { toast } from 'react-hot-toast';
 
 import './header.css'
 import { motion } from "framer-motion"
 
 
 import Logo from '../../images/homeImage/ASDEVLogo.png'
+import { AuthContext } from '../../context/AuthProvider';
 
 
 
 const Header = () => {
 
+  const { user, logout } = useContext(AuthContext);
 
+
+  const handleLogOut = () => {
+    logout()
+      .then(
+          toast.success('Log Out success')
+        )
+        .catch();
+}
 
 
 
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   
+
   
     const menu = <React.Fragment>
       
@@ -138,16 +150,32 @@ const Header = () => {
             <h1 className='animate-pop-in ASDEV'>ASDEV 81 Club Global</h1>
 
         </div>
-        <div className="flex justify-center sm:justify-start items-center">
-            <p className='download rounded-full sm:mx-4'>DOWNLOAD</p>
-            <Link to={'/register'}>
-            <p className='register rounded-full mx-4 '>Register</p>
+          <div className="flex justify-center  sm:justify-start items-center">
+          <p className='download rounded-full text-[12px]  sm:text-[11px] lg:text-[15px] sm:mx-4'>DOWNLOAD</p>
+
+            {
+              user?.uid ? <>
+                <Link >
+
+                  <p onClick={handleLogOut} className='signIn text-[12px]  sm:text-[11px] lg:text-[15px]  rounded-full  sm:mx-4'>Log Out</p>
+                </Link>
+                <img className='w-[50px]  h-[50px] rounded-full' title={user?.displayName}  src={user?.photoURL ? user.photoURL:<FaCentos></FaCentos>} alt="" />
+
+              </> : <>
+              <Link to={'/register'}>
+            <p className='register text-[12px] sm:text-[11px] lg:text-[15px] rounded-full mx-4 '>Register</p>
             </Link>
 
             <Link to={'login'}>
-              <p className='signIn  rounded-full  sm:mx-4'>Sign In</p>
+              <p className='signIn text-[12px]  sm:text-[11px] lg:text-[15px]  rounded-full  '>Sign In</p>
             
             </Link>
+           
+                </>
+                
+                
+            }
+         
 
         </div>
  
@@ -198,7 +226,7 @@ const Header = () => {
   
     <div className=" ml-auto lg:px-[20px]">
    
-    <label class="hidden  lg:block relative block">
+    <label class="hidden  lg:block relative ">
 <span class="sr-only">Search</span>
 <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                         <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">

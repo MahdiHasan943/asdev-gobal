@@ -21,7 +21,7 @@ const Social = () => {
                 console.log(user);
 
                 // AuthToken(user)
-                toast.success('successfully login.')
+                toast.success('successfully created.')
                 navigate('/')
 
                 setLoading(false)

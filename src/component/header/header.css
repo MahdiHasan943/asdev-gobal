@@ -14,7 +14,7 @@
    letter-spacing: -2%;
 }
 .download ,.register , .signIn{
-    font-size: 15px;
+   
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
    color: #367BF5;
@@ -25,7 +25,7 @@
 .signIn
   {
     background: #e0eafd;
-    padding: 10px 20px;
+    padding: 10px 10px;
    
   }
   /* .download:hover ,
@@ -78,12 +78,22 @@ color: rgba(0, 0, 0, 0.87);
 
   }
 
-  .download:hover , 
-  .signIn:hover , 
-  .register:hover{
+  .download , .register{
+    padding: 10px 10px;
 
-    
-    scale: 1.1;
+  }
+  .download:hover,
+  .register:hover{
+     
+    background: #e0eafd;
+  }
+
+
+
+  .signIn:hover,
+  .download:hover,
+  .register:hover{
+     scale: 1.1;
     transition: all .5s ease;
   }
 
@@ -147,3 +157,5 @@ color: rgba(0, 0, 0, 0.87);
 
   background-color: #fff!important;
 }
+
+
