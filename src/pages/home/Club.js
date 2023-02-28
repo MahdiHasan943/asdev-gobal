@@ -7,6 +7,7 @@ import git from '../../images/homeImage/git.png'
 
 import like from '../../images/homeImage/Vector@2x.png'
 import image2 from '../../images/homeImage/image2.png'
+import { Link } from 'react-router-dom'
 
 const Club = () => {
   return (
@@ -69,9 +70,11 @@ const Club = () => {
                   <h1 className='we py-4'>We are also keen on...</h1>
                   <p className='unity py-5'>Promoting unity and <br /> co-operation among <br />  various
                       ideological <br /> groups in ASABA.</p>
+                      <Link to={'/about'}>
                       <button className='bt my-4 bg-[white]  py-4 px-10 rounded-md'>
                           <span className='aboutbt'>                  ABOUT THE CLUB</span>
-                  </button>
+                          </button>
+                      </Link>
               </div>
               </div>
             

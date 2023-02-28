@@ -3,6 +3,7 @@ import React from 'react'
 
 import './asaba.css'
 import bg from '../../images/homeImage/clean.png'
+import { Link } from 'react-router-dom'
 
 const Asaba = () => {
   return (
@@ -26,11 +27,13 @@ const Asaba = () => {
                   Asaba people.
               </p>
               <div className="text-start sm:flex items-center py-8">
-                  <button className='button FBT py-4 px-16'>
+                      <Link to={'/activities'}>
+                      <button className='button FBT py-4 px-16'>
                           <span className='btText'>
                           CLUB ACTIVITIES
                  </span>
-                      </button>
+                          </button>
+                      </Link>
                   
                   <span className=' opacity-80 font-light px-4 sm:px-8 jump'>
                   JUMP IN
