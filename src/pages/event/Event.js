@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import useTitle from '../../component/hook/useTitle'
  import './event.css'
 
+ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import asdev from '../../images/eventsImage/asdev1.png'
 import vector from '../../images/eventsImage/Vector.png'
@@ -49,7 +50,7 @@ const Event = () => {
 
 
           <div className="">
-            <img className='mx-auto' src={asdev} alt="" />
+            <LazyLoadImage className='mx-auto' src={asdev} alt="" />
           </div>
           <div className="mx-auto pt-[90px]">
 
@@ -62,7 +63,7 @@ const Event = () => {
               we have <br /> championed.
             </p>
 
-            <img src={vector} alt="" />
+            <LazyLoadImage src={vector} alt="" />
           </div>
         </div>
       </section>
@@ -100,35 +101,35 @@ const Event = () => {
                 {/* 1 */}
             <div className="grid mb-4 grid-cols-1 gap-4 sm:grid-cols-3">
 
-              <div className=" relative"><img className='First  sm:ml-auto ' src={ImageOne} alt="" />
+              <div className=" relative"><LazyLoadImage className='First  sm:ml-auto ' src={ImageOne} alt="" />
                 
-                <img className=' sm:absolute mx-auto bottom-0 right-0' src={ImageTwo} alt="" />
+                <LazyLoadImage className=' sm:absolute mx-auto bottom-0 right-0' src={ImageTwo} alt="" />
 
          
               </div>
               <div className="flex  items-end">
-                <img className='mx-auto' src={ImageThree} alt="" />
+                <LazyLoadImage className='mx-auto' src={ImageThree} alt="" />
               </div>
               <div className="">
-                <img className='w-full mx-auto' src={ImageFour} alt="" />
-                <img className='w-full mx-auto' src={ImageFive} alt="" />
+                <LazyLoadImage className='w-full mx-auto' src={ImageFour} alt="" />
+                <LazyLoadImage className='w-full mx-auto' src={ImageFive} alt="" />
               </div>
             </div>
             {/* 2 */}
             <div className="grid  grid-cols-1 gap-4 sm:grid-cols-3 ">
 
               
-                <img className='w-[100%] mx-auto' src={ImageSix} alt="" />
+                <LazyLoadImage className='w-[100%] mx-auto' src={ImageSix} alt="" />
           
             <div className="">
-                <img className='w-full mx-auto' src={ImageSeven} alt="" />
-                <img className='pt-4 w-full mx-auto' src={ImageEight} alt="" />
+                <LazyLoadImage className='w-full mx-auto' src={ImageSeven} alt="" />
+                <LazyLoadImage className='pt-4 w-full mx-auto' src={ImageEight} alt="" />
             </div>
               <div className="">
-                <img className='' src={ImageNine} alt="" />
+                <LazyLoadImage className='' src={ImageNine} alt="" />
                 <div className="grid  grid-cols-1  sm:grid-cols-2 pt-4">
-                  <img className='w-full mx-auto' src={ImageTen} alt="" />
-                  <img className='w-full mx-auto' src={ImageEleven} alt="" />
+                  <iLazyLoadImagemg className='w-full mx-auto' src={ImageTen} alt="" />
+                  <LazyLoadImage className='w-full mx-auto' src={ImageEleven} alt="" />
 
                   
               </div>
@@ -157,18 +158,18 @@ const Event = () => {
           <div className="lg:flex justify-center">
             <div className="">
               <div className="mx-auto sm:flex justify-center mb-4 lg:justify-end">
-                <img className='mx-auto  sm:mx-4' src={SImageOne} alt="" />
-                <img className='mx-auto'  src={SImageTwo} alt="" />
+                <LazyLoadImage className='mx-auto  sm:mx-4' src={SImageOne} alt="" />
+                <LazyLoadImage className='mx-auto'  src={SImageTwo} alt="" />
               </div>
               
               <div className=" md:flex">
-                <img className='mx-auto' src={SImageFour} alt="" />
+                <LazyLoadImage className='mx-auto' src={SImageFour} alt="" />
                 <div className="">
 
-                  <img className='mb-4 mx-auto' src={SImageFive} alt="" />
+                  <LazyLoadImage className='mb-4 mx-auto' src={SImageFive} alt="" />
                   <div className="sm:flex ">
-                    <img className=' mx-auto lg:mr-4 ' src={SImageSeven} alt="" />
-                    <img className=' mx-auto ' src={SImageEight} alt="" />
+                    <LazyLoadImage className=' mx-auto lg:mr-4 ' src={SImageSeven} alt="" />
+                    <LazyLoadImage className=' mx-auto ' src={SImageEight} alt="" />
                   </div>
                 </div>
               </div>
@@ -176,8 +177,8 @@ const Event = () => {
 
             {/* 2 */}
             <div className="mt-[30px] lg:mt-0 lg:ml-4 ">
-              <img className='mx-auto' src={SImageThree} alt="" />
-              <img  className='mx-auto mt-4' src={SImageSix} alt="" />
+              <LazyLoadImage className='mx-auto' src={SImageThree} alt="" />
+              <LazyLoadImage  className='mx-auto mt-4' src={SImageSix} alt="" />
               <div className="    py-8">
                         <button className='Bbtn FBT  mx-auto  mb-[-90px]    flex justify-between py-6 px-12'>
                                 <span className='BText'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './join.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import one from '../../images/homeImage/1.png'
 import two from '../../images/homeImage/2.png'
@@ -20,20 +21,20 @@ const Join = () => {
           </div>
           <div className="grid pt-[80px] grid-cols-1 gap-4 lg:grid-cols-3">
               <div className="mx-auto">
-                  <img className='mx-auto'  src={one} alt="" />
+                  <LazyLoadImage className='mx-auto'  src={one} alt="" />
                   <p className='numberText'>
                       Promote and project <br /> Asaba heritage <br />
                       at all times</p>
               </div>
               <div className="mx-auto">
-              <img className='mx-auto' src={two} alt="" />
+              <LazyLoadImage className='mx-auto' src={two} alt="" />
               <p className='numberText'>
                       
                   Generate funds for  <br /> self-help in various <br /> ways
                 </p>
               </div>
               <div className="mx-auto">
-              <img className='mx-auto'  src={three} alt="" />
+              <LazyLoadImage className='mx-auto'  src={three} alt="" />
                   <p className='numberText'>
                   Working for the <br /> overall progress of <br /> Asaba 
                  </p>

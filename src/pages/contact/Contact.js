@@ -2,6 +2,7 @@ import React from 'react'
 import useTitle from '../../component/hook/useTitle'
 
 import './contact.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import asdev from '../../images/contactImage/asdev1.png'
 import vector from '../../images/contactImage/Vector.png'
@@ -25,7 +26,7 @@ const Contact = () => {
 
 
           <div className="">
-            <img className='mx-auto' src={asdev} alt="" />
+            <LazyLoadImage className='mx-auto' src={asdev} alt="" />
           </div>
           <div className="mx-auto pt-[90px]">
 
@@ -37,7 +38,7 @@ const Contact = () => {
               Club or become a member?
             </p>
 
-            <img src={vector} alt="" />
+            <LazyLoadImage src={vector} alt="" />
           </div>
         </div>
       </section>

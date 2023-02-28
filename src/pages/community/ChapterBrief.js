@@ -16,6 +16,7 @@ import img6 from '../../images/communityImage/Vector.png'
 import img7 from '../../images/communityImage/TobyHalvorson.png' 
 import img8 from '../../images/communityImage/ASDEV-Logo.png' 
 import vector from '../../images/communityImage/Vector.png' 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const ChapterBrief = () => {
@@ -23,7 +24,7 @@ const ChapterBrief = () => {
     <div className='px-8 lg:px-[85px] pb-[100px] bg-[#3E4345] py-10'>
 
       <div className="">
-        <img className='z-0 mb-[-150px]' src={vector} alt="" />
+        <LazyLoadImage className='z-0 mb-[-150px]' src={vector} alt="" />
 
 
         <h1 className='brief z-40'>Brief on Chapter Formation</h1>

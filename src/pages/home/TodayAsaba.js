@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import Tbg from '../../images/homeImage/asabaatnight.png'
 import { BsChevronRight } from "react-icons/bs";
@@ -55,25 +56,25 @@ const TodayAsaba = () => {
                   
               <div className="sm:flex justify-center lg:justify-end  mt-[120px]  lg:mt-[-00px]">
                   <div className="">
-                      <img className='mx-auto sm:mr-[20px] mt-[50px]' src={ImageOne} alt="" />
+                      <LazyLoadImage className='mx-auto sm:mr-[20px] mt-[50px]' src={ImageOne} alt="" />
                   </div>
                   <div className="">
-                      <img className='mx-auto' src={Imagetwo} alt="" />
-                      <img className='mx-auto' src={Imagethree} alt="" />
+                      <LazyLoadImage className='mx-auto' src={Imagetwo} alt="" />
+                      <LazyLoadImage className='mx-auto' src={Imagethree} alt="" />
                   </div>
               </div>
 
 
               <div className="">
                   <div className="sm:flex justify-center lg:justify-end mt-[30px]">
-                      <img className='mx-auto sm:mx-4' src={ImageFour} alt="" />
-                      <img className='mt-4 sm:mt-0 mx-auto sm:mx-[1px]' src={ImageFive} alt="" />
+                      <LazyLoadImage className='mx-auto sm:mx-4' src={ImageFour} alt="" />
+                      <LazyLoadImage className='mt-4 sm:mt-0 mx-auto sm:mx-[1px]' src={ImageFive} alt="" />
                   </div>
 
                   <div className="sm:flex  justify-center lg:justify-end mt-[30px]">
-                      <img className='mx-auto sm:mx-[0.1px]' src={ImageSix} alt="" />
-                      <img className='mx-auto my-3 sm:my-0 sm:mx-4' src={ImageSeven} alt="" />
-                      <img className='mx-auto sm:mx-[0.1px]' src={ImageEight} alt="" />
+                      <LazyLoadImage className='mx-auto sm:mx-[0.1px]' src={ImageSix} alt="" />
+                      <LazyLoadImage className='mx-auto my-3 sm:my-0 sm:mx-4' src={ImageSeven} alt="" />
+                      <LazyLoadImage className='mx-auto sm:mx-[0.1px]' src={ImageEight} alt="" />
                   </div>
                   
               </div>
