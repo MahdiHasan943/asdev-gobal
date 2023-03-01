@@ -1,6 +1,6 @@
 import React from 'react'
 import './club.css'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+                 
 
 import calender from '../../images/homeImage/order.png'
 import gallary from '../../images/homeImage/project.png'
@@ -34,8 +34,8 @@ const Club = () => {
                   <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
                     
                   <div className="relative">
-                  <LazyLoadImage className='h-[250px]    bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
-                     <LazyLoadImage className='absolute right-40 top-0' src={git} alt="" />
+                  < img className='h-[250px]    bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
+                     < img className='absolute right-40 top-0' src={git} alt="" />
                   </div>
                   {/* className='h-[220px] z-50 w-[300px] absolute top-[380px] bottom-0' */}
               </div>
@@ -43,7 +43,7 @@ const Club = () => {
               <h1 className='For'>For Asaba People</h1>
                   <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
                   
-                  <LazyLoadImage className='h-[220px] shadow-lg bg-bottom-[white] sm:w-[300px] mb-[-100px]' src={gallary} alt="" />
+                  < img className='h-[220px] shadow-lg bg-bottom-[white] sm:w-[300px] mb-[-100px]' src={gallary} alt="" />
 
                      
               </div>
@@ -61,8 +61,8 @@ const Club = () => {
               <h1 className='general'>The General Public</h1>
                   <p className='existing py-8'>Co-operate in any way possible with exiting <br /> Clubs and association with similar objectives in <br /> working for the overall progress of ASABA town.</p>
                   <div className="relative">
-                  <LazyLoadImage className='h-[180px] sm:w-[300px] rounded-5xl mb-[-100px]' src={image2} alt="" />
-                   <LazyLoadImage className='absolute sm:left-[270px] h-[70px] bottom-20' src={like} alt="" />
+                  < img className='h-[180px] sm:w-[300px] rounded-5xl mb-[-100px]' src={image2} alt="" />
+                   < img className='absolute sm:left-[270px] h-[70px] bottom-20' src={like} alt="" />
                   </div>
               </div>
              

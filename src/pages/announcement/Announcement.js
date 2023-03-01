@@ -15,7 +15,7 @@ import Mack from '../../images/announcementImage/Macbook33.png'
 
 import we from '../../images/announcementImage/we.png'
 import GoToTop from '../../component/GoToTop';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+                 
 
 
 const Announcement = () => {
@@ -34,18 +34,18 @@ const Announcement = () => {
             
             <div className="  relative">
             <div className='py-10 lg:w-[80%] h-auto ' >
-             <LazyLoadImage  className='w-full' src={bg} alt="" />
+             < img  className='w-full' src={bg} alt="" />
 
             </div>
          
               
               <div className="hidden lg:block absolute top-0 right-0">
               <div className="lg:w-[450px]  relative w-full mx-auto h-full ">
-                <LazyLoadImage className=' px-8 w-full h-full  z-0 mb-[-140px]' src={blob} alt="" />
+                < img className=' px-8 w-full h-full  z-0 mb-[-140px]' src={blob} alt="" />
                 <div className="bg-white w-full absolute top-[100px] left-[60px] z-50  p-10   rounded-lg">
                   
                     <div className="h-[200px] flex justify-center items-center"  style={{ backgroundImage: `url(${Map})` }}>
-                             <LazyLoadImage src={vector} alt="" />
+                             < img src={vector} alt="" />
                   </div>
                   <h1 className='have pt-6'>Have something say?</h1>
                   <p className='let text-center py-6 text-[#3E4345]'>Let us tell the world about your <br /> next big thing • 
@@ -66,7 +66,7 @@ const Announcement = () => {
                   
                  
                 <div className="h-[200px] flex justify-center items-center"  style={{ backgroundImage: `url(${Map})` }}>
-                             <LazyLoadImage src={vector} alt="" />
+                             < img src={vector} alt="" />
                   </div>
                   <h1 className='have pt-6'>Have something say?</h1>
                   <p className='let text-center py-6 text-[#3E4345]'>Let us tell the world about your <br /> next big thing • 
@@ -108,7 +108,7 @@ const Announcement = () => {
                   <p className='smart py-4 text-center'>
                   For smart teams who want to release apps faster with <br /> Setproduct items by publishing into a library
                   </p>
-                  <LazyLoadImage className='mx-auto' src={Iphone2} alt="" />
+                  < img className='mx-auto' src={Iphone2} alt="" />
                 </div>
                 <div className="GridTwo py-4">
 
@@ -191,7 +191,7 @@ Impact users better. <br />
                    </div>
                   </div>
                   <div className="w-[50%]">
-                    <LazyLoadImage className='h-[600px] w-full' src={IphoneOne} alt="" />
+                    < img className='h-[600px] w-full' src={IphoneOne} alt="" />
                   </div>
                 </div>
                
