@@ -149,7 +149,7 @@ color: rgba(0, 0, 0, 0.87);
 
 .nav{
   top: 0; 
-   left: 0; 
+   left: 0;
   width: 100%;
   z-index: 999;
   position: sticky;

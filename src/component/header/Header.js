@@ -38,17 +38,30 @@ const Header = () => {
     const menu = <React.Fragment>
       
         
-     
+      <li className=' py-2 lg:py-0'>
+              <NavLink
+                to='/home'
+                aria-label='home'
+                title='Home'
+                className={({ isActive }) =>
+                  isActive
+                    ? ' font1 navmenuTrack px-[10px] py-[8px]        xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
+                    : 'navmenuUnTrack  font1 px-[12px] py-[8px]        xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
+                }
+              >
+             Home
+              </NavLink>
+        </li>
 
-    <li className=' py-2 lg:py-0'>
+    <li className='lg:flex lg:justify-center py-2 lg:py-0'>
               <NavLink
                 to='/about'
                 aria-label='About'
                 title='About'
                 className={({ isActive }) =>
                   isActive
-                    ? ' font1 navmenuTrack px-[10px] py-[8px]        xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
-                    : 'navmenuUnTrack  font1 px-[12px] py-[8px]        xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
+                    ? ' font1 navmenuTrack px-[10px] py-[8px]       xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
+                    : 'navmenuUnTrack  font1 px-[10px] py-[8px]  mx-auto      xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
                 }
               >
              About the Club
@@ -147,7 +160,7 @@ const Header = () => {
          
         <div className="flex  justify-center sm:justify-start items-center">
             <Link to={'/'}><img className='HeaderLogo animate-pop-in' src={Logo} alt="" /></Link>
-            <h1 className='animate-pop-in ASDEV'>ASDEV 81 Club Global</h1>
+            <h1 className='animate-pop-in ASDEV'>ASDEV81 Club Asaba </h1>
 
         </div>
           <div className="flex justify-center  sm:justify-start items-center">
@@ -184,8 +197,8 @@ const Header = () => {
 
  
       </header>
-      <div className='nav shadow-md lg:shadow-sm px-10  py-6 sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
-        <div className='  flex it py-6 mx-auto  '>
+      <div className='nav shadow-md lg:shadow-sm px-4  lg:py-4 sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
+        <div className='  flex it  lg:py-4 mx-auto  '>
        
            
             
@@ -200,7 +213,7 @@ const Header = () => {
         {menu}
       
         
-     <div className="flex items-center">
+     <div className="flex items-center ">
        
     
     </div>
@@ -224,7 +237,7 @@ const Header = () => {
      
      
   
-    <div className=" ml-auto lg:px-[20px]">
+    <div className="mx-auto lg:px-[20px]">
    
     <label class="hidden  lg:block relative ">
 <span class="sr-only">Search</span>

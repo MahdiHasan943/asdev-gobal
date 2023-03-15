@@ -3,6 +3,7 @@ import useTitle from '../../component/hook/useTitle'
 
 import './announceMent.css'
 import { BsArrowRightShort ,BsChevronRight} from "react-icons/bs";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import bg from '../../images/announcementImage/Image.png'
 import blob from '../../images/announcementImage/Blob.png'
@@ -34,14 +35,14 @@ const Announcement = () => {
             
             <div className="  relative">
             <div className='py-10 lg:w-[80%] h-auto ' >
-             < img  className='w-full' src={bg} alt="" />
+            <LazyLoadImage className='w-full' src={bg} alt="" />
 
             </div>
          
               
               <div className="hidden lg:block absolute top-0 right-0">
               <div className="lg:w-[450px]  relative w-full mx-auto h-full ">
-                < img className=' px-8 w-full h-full  z-0 mb-[-140px]' src={blob} alt="" />
+              <LazyLoadImage className=' px-8 w-full h-full  z-0 mb-[-140px]' src={blob} alt="" />
                 <div className="bg-white w-full absolute top-[100px] left-[60px] z-50  p-10   rounded-lg">
                   
                     <div className="h-[200px] flex justify-center items-center"  style={{ backgroundImage: `url(${Map})` }}>

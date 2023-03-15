@@ -13,6 +13,7 @@ import { BsEnvelopeFill ,BsPersonFill,BsHouseDoor,BsPerson} from "react-icons/bs
 import Social from './Social';
 
 
+import '../../pages/contact/contact.css'
 
 
 const Register = () => {

@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="flex justify-center">
         <div className="flex items-center ">
           <img src={logo} alt="" />
-          <h1 className='text-[20px] sm:text-[34px] footerH1'>ASDEV 81 Club Global</h1>
+          <h1 className='text-[20px] sm:text-[34px] footerH1'>ASDEV81 Club Asaba</h1>
           
         </div>
         
@@ -65,7 +65,7 @@ const Footer = () => {
 
           </span>         </div>
           
-        <p className='text-center reserve pt-20 pb-8'>© asdev81.org | All rights reserved </p>
+        <p className='text-center reserve pt-20 pb-8'>©2023 asdev81.org | Asaba Development Club '81 Asaba | All rights reserved</p>
       </div>
 
 

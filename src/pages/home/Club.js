@@ -1,6 +1,7 @@
 import React from 'react'
 import './club.css'
-                 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+          
 
 import calender from '../../images/homeImage/order.png'
 import gallary from '../../images/homeImage/project.png'
@@ -34,8 +35,8 @@ const Club = () => {
                   <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
                     
                   <div className="relative">
-                  < img className='h-[250px]    bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
-                     < img className='absolute right-40 top-0' src={git} alt="" />
+                  <LazyLoadImage className='h-[250px]    bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
+                  <LazyLoadImage className='absolute right-40 top-0' src={git} alt="" />
                   </div>
                   {/* className='h-[220px] z-50 w-[300px] absolute top-[380px] bottom-0' */}
               </div>
@@ -43,7 +44,7 @@ const Club = () => {
               <h1 className='For'>For Asaba People</h1>
                   <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
                   
-                  < img className='h-[220px] shadow-lg bg-bottom-[white] sm:w-[300px] mb-[-100px]' src={gallary} alt="" />
+                  <LazyLoadImage className='h-[220px] shadow-lg bg-bottom-[white] sm:w-[300px] mb-[-100px]' src={gallary} alt="" />
 
                      
               </div>
@@ -69,7 +70,7 @@ const Club = () => {
               <div className="absolute px-[100px] left-[60%] hidden lg:block 2xl:left-[65%] top-[100px]">
               <div className="blue px-8 py-10  ">
                   
-                  <h1 className='we py-4'>We are also keen on...</h1>
+                  <h1 className='text-[25px] font-bold text-white py-4'>We are also keen on...</h1>
                   <p className='unity py-5'>Promoting unity and <br /> co-operation among <br />  various
                       ideological <br /> groups in ASABA.</p>
                       <Link to={'/about'}>

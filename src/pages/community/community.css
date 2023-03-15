@@ -179,3 +179,243 @@ color: #FFFFFF;
 text-shadow: 0px 4px 8px rgba(8, 35, 48, 0.16), 0px 2px 4px rgba(8, 35, 48, 0.24);
 
 }
+
+.exasababg{
+
+    background-image: url('../../images/CommunityBtnImages/Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.reacAngle{
+    background-image: url('../../images/CommunityBtnImages/Rectangle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 64%;
+
+}
+
+
+@media only screen and (max-width: 435px){
+   .exasababg{
+    height: 100vh;
+   }
+   .reacAngle{
+    background-image: url('../../images/CommunityBtnImages/Rectangle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width:90%;
+
+}
+
+
+
+
+}
+@media only screen and (min-width: 435px)  and (max-width: 991px)  {
+    .reacAngle{
+        background-image: url('../../images/CommunityBtnImages/Rectangle.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        width:80%;
+    
+    }
+
+    .exasababg{
+
+        background-image: url('../../images/CommunityBtnImages/Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        width: 100%;
+    
+    
+    }
+
+  
+    
+  }
+
+
+
+  
+.asabaseptember{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.25px;
+
+/* Gray · 80% */
+
+color: #5E6366;
+
+}
+
+.asabaherop{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+/* or 160% */
+
+text-align: center;
+letter-spacing: 0.15px;
+text-transform: uppercase;
+
+/* Gradient Yellow */
+
+background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+
+
+.ASDEV81{
+
+    margin-top: -100px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: -0.02em;
+
+}
+
+@media only screen and (max-width:440px){
+    .ASDEV81{
+
+        margin-top: -100px;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+    
+    }
+}
+
+
+
+.commitment{
+    /* Gradient Dark */
+
+background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.accelerate{
+
+    color: #F4977B;
+}
+
+.driven{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+
+letter-spacing: -0.02em;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+
+
+}
+
+
+
+.inquary{
+/* 60 sp • H2 / Poppins */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+line-height: 72px;
+
+letter-spacing: -0.02em;
+
+/* White Base */
+
+color: #FFFFFF;
+
+/* Shadow Dark · 16dp */
+
+text-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+
+}
+.below{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    
+    letter-spacing: -0.02em;
+    
+    /* Gray · 30% */
+    
+    color: #E3E5E6;
+    
+}
+.you{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    
+    letter-spacing: -0.02em;
+    
+    /* Gray · 30% */
+    
+    color: #F7717D
+    ;
+    
+}
+
+.Quarter{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* or 136% */
+
+letter-spacing: 0.44px;
+
+/* White Base */
+
+color: #FFFFFF;
+
+}
+
+.AsabaBTnArrow{
+
+    background: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+/* Shadow Dark · 8dp */
+
+box-shadow: 0px 8px 16px rgba(8, 35, 48, 0.1), 0px 4px 8px rgba(8, 35, 48, 0.16);
+border-radius: 4px;
+}

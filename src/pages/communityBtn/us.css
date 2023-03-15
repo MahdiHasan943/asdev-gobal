@@ -1,0 +1,15 @@
+.usheroH1{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+
+letter-spacing: -0.04em;
+
+background: linear-gradient(90deg, #9910ED 0%, #4F586A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}

@@ -23,8 +23,8 @@ const AboutUs = () => {
         <div className="px-4 lg:px-0  lg:flex  lg:w-[90%]">
           <div className="lg:w-[30%] animate-pop-in rounded-sm ourStory px-10 py-10">
                   <h1 className='py-4 ourStoryH1'>
-                  Elite Asaba <br /> 
-                  Club since 1981
+                  ASDEV81 Club Asaba<br /> 
+                  
                   </h1>
                   <p className='ourStoryp py-8'>
                   Our story
@@ -43,11 +43,11 @@ const AboutUs = () => {
 
             <p className='founded py-6'>
               FOUNDED  <span className=' text-[gray]'>
-              • SEPTEMBER 1967
+              • in 1981
             </span>
             </p>
             <h1 className='formed py-4'>
-              ASDEV Club was formed based on the <span className='text-[red]'>
+              ASDEV81 Club Asaba was formed based on the <span className='text-[red]'>
               burning <br /> desire </span> to offer services 
             to our home town, Asaba. 
 
