@@ -13,15 +13,16 @@ const Asaba = () => {
               <div className="">
                   
               <p className='text-start py-4 pride'>
-                  We pride ouself as the most elite Asaba social club
+                  We pride ourselves as the most elite Asaba Social-Cultural club
               </p>
             
-              <h1 className='text-start py-4 asabaH1'>
-              Asaba is our home!
+              <h1 className='text-start py-4 asabaH1 text-[30px] sm:text-[60px]'>
+              Asaba Development 81 Club!
+
               </h1>
               <p className='text-start Global'>
                   
-                  As a Global Socio-Cultural Club we
+                  As a Global Social-Cultural Club we
                   aim to <br /> create a forum for members to contribute <br />
                   towards the general progress and <br /> aspirations of
                   Asaba people.

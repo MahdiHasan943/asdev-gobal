@@ -1,6 +1,7 @@
 import React from 'react'
 import './club.css'
-                 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+          
 
 import calender from '../../images/homeImage/order.png'
 import gallary from '../../images/homeImage/project.png'
@@ -24,26 +25,21 @@ const Club = () => {
           </div>
 
 
-
-
-
           <div className="px-[20px] relative z-50 pt-[70px] sm:px-[100px] gap-6 grid grid-cols-1 lg:grid-cols-2">
               
-              <div className="px-14 shadow-lg mb-[250px] lg:mb-0 py-10 bg-[#DAF5F2] rounded-[16px] w-full h-auto ">
-                  <h1 className='member'>For Members</h1>
-                  <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
-                    
+              <div className="px-14 shadow-lg mb-10 lg:mb-0 py-10 bg-[#DAF5F2] rounded-[16px] w-full h-auto ">
+              
+                  <p className='Create py-6'><></>1. ASDEV81 is a club of like-minded indigenes aspired to contribute towards and participate in all aspects of the development Asaba and its environment.</p>
+                  <p className='Create py-6'><></>2. To Co-operate in any way possible with existing Clubs and association with similar objectives in working for the overall progress of Asaba Town.</p>
                   <div className="relative">
-                  < img className='h-[250px]    bg-bottom-[white] sm:w-[300px] mb-[-190px]' src={calender} alt="" />
-                     < img className='absolute right-40 top-0' src={git} alt="" />
+                  
                   </div>
                   {/* className='h-[220px] z-50 w-[300px] absolute top-[380px] bottom-0' */}
               </div>
               <div className="bg-[#E5EFFF] shadow-lg mb-12 lg:mb-0 px-14 py-10 rounded-[16px] w-full h-auto">
-              <h1 className='For'>For Asaba People</h1>
-                  <p className='Create py-6'>Create a forum for members to contribute towards the general progress and aspiration of ASABA people including member themselves</p>
-                  
-                  < img className='h-[220px] shadow-lg bg-bottom-[white] sm:w-[300px] mb-[-100px]' src={gallary} alt="" />
+        
+                  <p className='Create py-6'>3. To promote unity and cooperation among various ideological groups in Asaba.</p>
+                  <p className='Create py-6'>4. To foster the spirit of cooperation and greater understanding among the people of Asaba.</p>
 
                      
               </div>
@@ -51,48 +47,22 @@ const Club = () => {
 
           </div>
 
-
-          
-
-          
-
-          <div className="flex w-[100%] relative px-[20px] justify-center sm:px-[100px]  ">
-          <div className="bg-[#FCF3D7] z-0 mt-16 lg:ml-[-180px] lg:w-[50%]  mb-12 lg:mb-0 px-14 py-10 rounded-[23px] h-auto">
-              <h1 className='general'>The General Public</h1>
-                  <p className='existing py-8'>Co-operate in any way possible with exiting <br /> Clubs and association with similar objectives in <br /> working for the overall progress of ASABA town.</p>
+          <div className="flex w-[100%] px-4  relative lg:px-[40px] justify-center sm:px-[100px]  ">
+          <div className="bg-[#FCF3D7] z-0 mt-6 sm:mt-14 w-full sm:w-[93%] mx-auto  mb-12 lg:mb-0 px-14 py-10 rounded-[46px] h-auto">
+             
+                  <p className='existing py-8'>5. To generate funds for self help in various ways.</p>
+                  <p className='existing py-8'>6. To promote and organise activities that will enhance the welfare of memebers and of Asaba people such funding education for the less privileged, job creation for youths, providing health facilities and sports promotion/sponsorship.</p>
+                  <p className='existing py-8'>7. To promote and project Asaba heritage, history and culture through high profile activities that could attract national and international recognition</p>
                   <div className="relative">
-                  < img className='h-[180px] sm:w-[300px] rounded-5xl mb-[-100px]' src={image2} alt="" />
-                   < img className='absolute sm:left-[270px] h-[70px] bottom-20' src={like} alt="" />
+    
                   </div>
               </div>
              
-              <div className="absolute px-[100px] left-[60%] hidden lg:block 2xl:left-[65%] top-[100px]">
-              <div className="blue px-8 py-10  ">
-                  
-                  <h1 className='we py-4'>We are also keen on...</h1>
-                  <p className='unity py-5'>Promoting unity and <br /> co-operation among <br />  various
-                      ideological <br /> groups in ASABA.</p>
-                      <Link to={'/about'}>
-                      <button className='bt my-4 bg-[white]  py-4 px-10 rounded-md'>
-                          <span className='aboutbt'>                  ABOUT THE CLUB</span>
-                          </button>
-                      </Link>
-              </div>
-              </div>
+             
+             
+
             
-          </div>
-          <div className="flex justify-center py-10">
-          <div className="   block  lg:hidden ">
-              <div className="blue px-20 sm:px-[130px] py-10  ">
-                  
-                  <h1 className='we py-4'>We are also keen on...</h1>
-                  <p className='unity py-5'>Promoting unity and <br /> co-operation among <br />  various
-                      ideological <br /> groups in ASABA.</p>
-                      <button className='bt my-4 bg-[white]  py-4 px-10 rounded-md'>
-                          <span className='aboutbt'>                  ABOUT THE CLUB</span>
-                  </button>
-              </div>
-              </div>
+          
           </div>
             
     </div>

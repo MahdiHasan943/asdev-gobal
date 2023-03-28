@@ -33,9 +33,9 @@ const Error = () => {
           ></polygon>
         </svg>
         <div className='max-w-md text-center'>
-          <h2 className='mb-8 font-extrabold text-9xl text-[#9BAAFA]'>
+          <h4 className='mb-8 font-extrabold text-9xl text-[#9BAAFA]'>
             <span className='sr-only'>Error</span>404
-          </h2>
+          </h4>
           <p className='text-2xl text-[#9BAAFA] font-bold md:text-3xl mb-8'>
             Sorry, we couldn't find this page.
           </p>

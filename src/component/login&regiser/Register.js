@@ -2,58 +2,31 @@ import React, { useContext, useState } from 'react'
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
-// import Button from '../shared/Button/Button';
 import { BsUpload } from "react-icons/bs";
-// import useToken from '../../Router/useToken';
-// import { AuthToken } from '../../Router/auth';
 import useTitle from '../hook/useTitle';
 import { AuthContext } from '../../context/AuthProvider';
-// import Social from './Social';
-import { BsEnvelopeFill ,BsPersonFill,BsHouseDoor,BsPerson} from "react-icons/bs";
 import Social from './Social';
-
-
-
+import '../../pages/contact/contact.css'
 
 const Register = () => {
-
-
   useTitle('register page')
   const {createUser, updateUserProfile}=useContext(AuthContext)
 
   const [select, setSelect] = useState();
   const [createduserEmail,setCreateduserEmail]=useState('')
-  
   const { register, handleSubmit, formState: { errors } } = useForm();
-
-const navigate =useNavigate()
+  const navigate =useNavigate()
   const [signUpError, setSignUPError] = useState('')
-
-
-  // const [token] = useToken(createduserEmail);
-  // console.log(token);
-  // if (token) {
-  //     navigate('/')
-  // }
-
-
-
-
+  //signup function  
   const handleSignUp = (data) => {
     const image = data.image[0];
-
     console.log(data);
-    setSignUPError('');
-     
+    setSignUPError('');    
     const formData = new FormData()
     formData.append('image', image)
     console.log(formData);
-
-  
  const url="https://api.imgbb.com/1/upload?key=38b7b1fdd72c3d040f079abed85ff2f7"
-
-
-    fetch(url, {
+   fetch(url, {
       method: 'POST',
       body: formData
     })
@@ -64,56 +37,19 @@ const navigate =useNavigate()
         .then(result => {
             const user = result.user;
             console.log(user);
-          toast.success('Register successfully')
-            // const userInfo = {
-            //   displayName: data.name,
-            //   photoURL: imageData.data.display_url
-            // }
-            updateUserProfile(data.name,imageData.data.display_url)
-              // .then(() => {  
-                  
-              //   saveUser(data.name,data.email,data.Title)
-              // })
-              
-        //   AuthToken(user)
+          toast.success('Register successfully')        
+            updateUserProfile(data.name,imageData.data.display_url)        
         })
         .catch(error => {
             console.log(error)
             setSignUPError(error.message)
         });
-
       })
-
-   
   }
-  
-
-
-//   const saveUser = (name,email,Title) => {
-//     const user = { name, email,Title };
-//     fetch(' https://server-side-weld.vercel.app/users', {
-//         method: 'POST',
-//         headers: {
-//             'content-type': 'application/json'
-//         },
-//         body: JSON.stringify(user)
-//     })
-//         .then(res => res.json())
-//         .then(data => {
-//            console.log('saveuser', data);
-//           setCreateduserEmail(email)
-//           navigate('/')
-
-
-//        })
-
-
-
-// }
 
 
   return (
-    <div className="hero bg-[#3E4345] py-8"  >
+    <section className="hero bg-[#3E4345] py-8"  >
 
     <div className='flex justify-center py-12 hero-overlay bg-opacity-60  items-center'>
     <div className='w-full bg-[#5E6366] sm:w-96 p-7  rounded-md'>
@@ -134,8 +70,6 @@ const navigate =useNavigate()
                     <label className="label"> <span className="label-text  text-white">Photo</span></label>
               <div className="flex ">
               <label for='img' className="label input input-bordered bg-[#3E4345] focus:bg-[white] w-full "> <BsUpload className='photo font-bold text-2xl '></BsUpload></label>
-
-                
               <input id='img'  type="file" {...register("image", {
                     required: "image is Required"
               })}
@@ -144,11 +78,6 @@ const navigate =useNavigate()
                     </div>
                     {errors.image && <p className='text-red-500 '>{errors.image.message}</p>}
             </div>
-
-
-
-
-
             <div className="form-control w-full ">
                 <label className="label"> <span className="label-text  text-white">Email</span></label>
                 <input type="email" {...register("email", {
@@ -185,7 +114,7 @@ const navigate =useNavigate()
       <Toaster></Toaster>
 
       </div>
-      </div>
+      </section>
 
   )
 }

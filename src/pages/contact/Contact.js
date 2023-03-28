@@ -2,7 +2,8 @@ import React from 'react'
 import useTitle from '../../component/hook/useTitle'
 
 import './contact.css'
-                 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+             
 
 import asdev from '../../images/contactImage/asdev1.png'
 import vector from '../../images/contactImage/Vector.png'
@@ -26,7 +27,7 @@ const Contact = () => {
 
 
           <div className="">
-            < img className='mx-auto' src={asdev} alt="" />
+          <LazyLoadImage className='mx-auto' src={asdev} alt="" />
           </div>
           <div className="mx-auto pt-[90px]">
 
@@ -130,9 +131,9 @@ const Contact = () => {
               </div> 
               <select className="select mb-4 h-[55px] textarea bg-[#3E4345] rounded-none text-white focus:text-[black] w-full focus:bg-[white] focus:outline-[#098b99] select-ghost ">
   <option  selected>Select</option>
-  <option>Best</option>
-  <option>Middle</option>
-  <option>Lower</option>
+  <option>General</option>
+  <option>Membership</option>
+  <option>Donations</option>
 </select>
               <textarea className="textarea bg-[#3E4345] rounded-none text-white focus:text-[black] w-full focus:bg-[white] focus:outline-[#098b99] " placeholder="Write About You"></textarea>
 

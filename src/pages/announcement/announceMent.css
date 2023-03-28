@@ -242,12 +242,14 @@ letter-spacing: -0.01em;
 color: #FFFFFF;
 
 }
-.smart{
+.smart1{
     /* Body 1 / Roboto */
 
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
+color: white;
+text-shadow: 10px 10px 10px 10px;
+font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 /* or 150% */
@@ -257,7 +259,24 @@ letter-spacing: 0.44px;
 
 /* White Base */
 
-color: #FFFFFF;
+}
+
+.smart{
+    /* Body 1 / Roboto */
+
+font-family: 'Roboto';
+font-style: normal;
+color: wheat;
+text-shadow: 10px 10px 10px 10px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+letter-spacing: 0.44px;
+
+/* White Base */
 
 }
 

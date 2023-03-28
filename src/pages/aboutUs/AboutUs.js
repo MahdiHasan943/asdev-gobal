@@ -23,8 +23,8 @@ const AboutUs = () => {
         <div className="px-4 lg:px-0  lg:flex  lg:w-[90%]">
           <div className="lg:w-[30%] animate-pop-in rounded-sm ourStory px-10 py-10">
                   <h1 className='py-4 ourStoryH1'>
-                  Elite Asaba <br /> 
-                  Club since 1981
+                  ASDEV81 Club Asaba<br /> 
+                  
                   </h1>
                   <p className='ourStoryp py-8'>
                   Our story
@@ -43,11 +43,11 @@ const AboutUs = () => {
 
             <p className='founded py-6'>
               FOUNDED  <span className=' text-[gray]'>
-              • SEPTEMBER 1967
+              • in 1981
             </span>
             </p>
             <h1 className='formed py-4'>
-              ASDEV Club was formed based on the <span className='text-[red]'>
+              ASDEV81 Club Asaba was formed based on the <span className='text-[red]'>
               burning <br /> desire </span> to offer services 
             to our home town, Asaba. 
 
@@ -68,37 +68,62 @@ const AboutUs = () => {
 
 
       {/* 1 */}
-      <div className="px-6 pt-[60px] lg:pt-[150px] pb-[200px]">
-      <div className="px-4 lg:px-0  shadow ">
-        <div className="lg:pl-[120px]  py-20">
-        <p className='AboutP '>
-              Asdev 81 Club is a prominent socio-cultural club with the main
-              objective of contributing to the development of <br /> Asaba and its environs
-              by providing boreholes and transformers for communities and scholarship
-              for indigent <br /> students, among other gestures. <br />
-              The club has respected personalities of Asaba origin
-              , including Ogbueshi Fred Okonta, a former chairman <br /> ICAN Abuja chapter.
-              Ogbueshi Tony Idigbe is a senior advocate of Nigeria (SAN). 
+      <div className="px-6 py-20">
+        <div className=" p-10   shadow ">
+          
+          <div className="grid grid-cols-1 gap-6   sm:grid-cols-2">
+            {/* 1 */}
+            <div className="px-8 py-10 bg-[#daf5f2]">
+              <p className='AboutP '>
+              "ASDEV81 Club is one of the most elite clubs in Asaba. The club was founded in 1981 and its headquarters is <br /> in Asaba Delta state.
+ASDEV81 Club Asaba consists of 6 chapters and in excess of 300 members across the globe.
+<p className='py-5'>
+                
+                The Chapters are as follows: <br />
+                1. Abuja Chapter Federal Capital Territory Nigeria <br />
+                2. Asaba Chapter Delta State Nigeria <br />
+                3. Lagos Chapter Lagos State Nigeria <br />
+                4. Portharcourt Chapter Rivers State Nigeria <br />
+                5. United Kingdom Chapter United Kingdom <br />
+                6. United States Chapter United States of America <br />
+                </p>
+                <p className='py-6'>
+                
+                Each chapter is empowered to continue to grow its members within Nigeria and in Diaspora, with the common of identifying <br /> like-minded individuals who would like to promote issues that would cast a shining light on Asaba.
+                               </p>
+              </p>
 
 
-              <p className='py-5'>The new president, Ogbueshi Ochuba holds a master’s degree in
-              Business Administration (MBA) and is a <br /> fellow of the Institute of
-              Chartered Accountants of Nigeria (ICAN).</p>
+            </div>
+            {/* 2 */}
+            <div className="px-8 py-10 bg-[#e5efff]">
+              <p className='AboutP '>
+              ASDEV81 club Asaba has been a beacon of light club for Asaba, over the years. The club has launched and executed laudable projects <br />
+              that have aligned with the values of the club. Some of these projects are as follows.
+              <p> <br />
+
+               <p className='py-2 m-0'> 1. Asaba street lighting project. Providing street lights in Asaba.</p> 
+               <p className='py-2 m-0'>   2. Street naming project supporting the government to execute the naming and numbering of streets in Asaba. </p> 
+
+               <p className='py-2 m-0'>  3. Scholarship scheme to support in ensuring that education and support are at the heart of what happens in Asaba. <br />
+                This project has continued to support individuals achieve their educational goals </p> 
+                <p className='py-2 m-0'>  4. The building of the Ogwaukwu secretariat for meetings in Asaba</p> 
                
-               <p className='py-6'>In his acceptance speech,
+                <p className='py-2 m-0'> 5. Medical Outreach program, a program that provides front-line medical care to individuals within Asaba that cannot afford healthcare
 
-Ochuba promised to continue largely with the policies of the former president, <br />
-Ogbueshi Tony Molokwu to lift the club’s image, raise funds for projects
-and members welfare, as well as <br /> ensure accountability and inclusiveness
-in governance.</p>
-              He also promised to partner with waste 
+                </p> 
+                6. Pioneering digital transformation and the importance of utilising technology to drive change in Asaba"
 
-              management board to keep Asaba and its environs clean,
-              liaise with <br /> the Asaba Development Union (ADU) and Asagba in council
-              on matters of community interest, engage in <br /> quality membership drive,
-              among others.
-        </p>
-                </div>
+
+                
+
+              </p>
+                </p>
+
+            </div>
+
+          </div>
+         
       
       </div>
      </div>

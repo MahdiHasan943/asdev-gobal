@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
- import './btn.css'
+import './btn.css'
 const GoToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
-
   const goToBtn = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
@@ -35,8 +34,5 @@ const GoToTop = () => {
    </>
   );
 };
-
-
-  
-
+ 
 export default GoToTop;

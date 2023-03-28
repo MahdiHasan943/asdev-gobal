@@ -1,111 +1,69 @@
 .borders{
-  
     border-bottom: solid #E3E5E5 1px;
-
 }
-
 .ASDEV{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 24px;
     margin-left: 10px;
     line-height: 32.4px;
     color: #000000;
    letter-spacing: -2%;
 }
-.download ,.register , .signIn{
-   
+.download ,.register , .signIn{ 
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
    color: #367BF5;
    text-transform: uppercase;
-
 }
-
 .signIn
   {
     background: #e0eafd;
-    padding: 10px 10px;
-   
+    padding: 10px 10px; 
   }
-  /* .download:hover ,
-  .register:hover
-  {
-    background: #e0eafd;
-    padding: 8px 16px;
-   
-  } */
-
-  .navmenuUnTrack{
-    
+  .navmenuUnTrack{ 
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.44px;
     color: #000000;
-    /* padding: 12px 20px; */
-
   }
   .navmenuTrack{
-
     background: #9BAAFA;
-    /* padding: 12px 20px; */
-/* Body 1 / Roboto */
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.44px;
-
-/* Dark Color */
-
-color: rgba(0, 0, 0, 0.87);
-
-    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: rgba(0, 0, 0, 0.87);
   }
   li:hover{
-    
     scale: 1.1;
     transition: all .5s ease;
-
   }
-
   .download , .register{
     padding: 10px 10px;
-
   }
   .download:hover,
-  .register:hover{
-     
+  .register:hover{ 
     background: #e0eafd;
   }
-
-
-
   .signIn:hover,
   .download:hover,
   .register:hover{
      scale: 1.1;
     transition: all .5s ease;
   }
-
-
-
-  
+ 
 .animate-pop-in {
   -webkit-animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
-          animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
-  opacity: 0;
+   animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+   opacity: 0;
 }
-
 
 .HeaderLogo{
   -webkit-animation-delay: .5s;
@@ -115,19 +73,17 @@ color: rgba(0, 0, 0, 0.87);
   -webkit-animation-delay: .5s;
   animation-delay: .5s;
 }
-
-
-    
+  
 @-webkit-keyframes pop-in {
   0% {
-    opacity: 0;
+     opacity: 0;
     -webkit-transform: translateY(-4rem) scale(.8);
-            transform: translateY(-4rem) scale(.8);
+    transform: translateY(-4rem) scale(.8);
   }
   100% {
     opacity: 1;
     -webkit-transform: none;
-            transform: none;
+     transform: none;
   }
 }
 
@@ -144,17 +100,13 @@ color: rgba(0, 0, 0, 0.87);
   }
 }
 
-
-
-
 .nav{
   top: 0; 
-   left: 0; 
+   left: 0;
   width: 100%;
   z-index: 999;
   position: sticky;
   animation: fadeInDown .5s ease-in-out 0s 1 normal none running;
-
   background-color: #fff!important;
 }
 

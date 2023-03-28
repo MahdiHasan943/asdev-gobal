@@ -1,25 +1,15 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FaCentos } from "react-icons/fa";
-import { FaPhoneVolume } from "react-icons/fa";
-import { FaBookOpen } from "react-icons/fa";
-import { BsCartCheck,BsArrowRightShort } from "react-icons/bs";
-import { BiRightArrowAlt } from "react-icons/bi";
 import { toast } from 'react-hot-toast';
-
 import './header.css'
 import { motion } from "framer-motion"
-
-
 import Logo from '../../images/homeImage/ASDEVLogo.png'
 import { AuthContext } from '../../context/AuthProvider';
-
-
 
 const Header = () => {
 
   const { user, logout } = useContext(AuthContext);
-
 
   const handleLogOut = () => {
     logout()
@@ -28,27 +18,34 @@ const Header = () => {
         )
         .catch();
 }
-
-
-
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  
-
   
     const menu = <React.Fragment>
       
-        
-     
+      <li className=' py-2 lg:py-0'>
+              <NavLink
+                to='/home'
+                aria-label='home'
+                title='Home'
+                className={({ isActive }) =>
+                  isActive
+                    ? ' font1 navmenuTrack px-[10px] py-[8px]        xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
+                    : 'navmenuUnTrack  font1 px-[12px] py-[8px]        xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
+                }
+              >
+             Home
+              </NavLink>
+        </li>
 
-    <li className=' py-2 lg:py-0'>
+    <li className='lg:flex lg:justify-center py-2 lg:py-0'>
               <NavLink
                 to='/about'
                 aria-label='About'
                 title='About'
                 className={({ isActive }) =>
                   isActive
-                    ? ' font1 navmenuTrack px-[10px] py-[8px]        xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
-                    : 'navmenuUnTrack  font1 px-[12px] py-[8px]        xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
+                    ? ' font1 navmenuTrack px-[10px] py-[8px]       xl:px-[10px] xl:py-[10px]  rounded-full    duration-200 '
+                    : 'navmenuUnTrack  font1 px-[10px] py-[8px]  mx-auto      xl:px-[10px] xl:py-[10px]      transition-colors duration-200'
                 }
               >
              About the Club
@@ -85,7 +82,6 @@ const Header = () => {
               </NavLink>
         </li>
         
-
         <li className=' py-2 lg:py-0'>
               <NavLink
                 to='/announcements'
@@ -100,8 +96,6 @@ const Header = () => {
         Announcements
               </NavLink>
             </li>
-
-        
 
         <li className=' py-2 lg:py-0'>
               <NavLink
@@ -118,7 +112,6 @@ const Header = () => {
               </NavLink>
             </li>
 
-
         <li className=' py-2 lg:py-0'>
               <NavLink
                 to='/contact'
@@ -134,20 +127,18 @@ const Header = () => {
               </NavLink>
             </li>
 
-
-
   </React.Fragment>
   
 
   return (
     <>
-      
+      {/* header main */}
           <header className='px-10  sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
           <div className="sm:flex  borders  justify-between py-[12px]  ">
          
         <div className="flex  justify-center sm:justify-start items-center">
-            <Link to={'/'}><img className='HeaderLogo animate-pop-in' src={Logo} alt="" /></Link>
-            <h1 className='animate-pop-in ASDEV'>ASDEV 81 Club Global</h1>
+            <Link to={'/'}><img className='HeaderLogo animate-pop-in' src={Logo} alt="asdev web logo" /></Link>
+            <h1 className='animate-pop-in sm:text-[16px] md:text-[24px] ASDEV'>ASDEV81 Club Asaba </h1>
 
         </div>
           <div className="flex justify-center  sm:justify-start items-center">
@@ -159,7 +150,7 @@ const Header = () => {
 
                   <p onClick={handleLogOut} className='signIn text-[12px]  sm:text-[11px] lg:text-[15px]  rounded-full  sm:mx-4'>Log Out</p>
                 </Link>
-                <img className='w-[50px]  h-[50px] rounded-full' title={user?.displayName}  src={user?.photoURL ? user.photoURL:<FaCentos></FaCentos>} alt="" />
+                <img className='w-[50px]  h-[50px] rounded-full' title={user?.displayName}  src={user?.photoURL ? user.photoURL:<FaCentos></FaCentos>} alt="user profile image" />
 
               </> : <>
               <Link to={'/register'}>
@@ -172,67 +163,42 @@ const Header = () => {
             </Link>
            
                 </>
-                
-                
+             
             }
          
-
         </div>
  
     </div>
-    
-
- 
       </header>
-      <div className='nav shadow-md lg:shadow-sm px-10  py-6 sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
-        <div className='  flex it py-6 mx-auto  '>
-       
-           
-            
+      {/* nabvar menu*/}
 
-      
-            
-  
-         
+
+      <div className='nav shadow-md lg:shadow-sm px-4  lg:py-4 sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[120px] 2xl:px-[144px]'>
+        <div className='flex it lg:py-4 mx-auto  '>
+       
     <div className='flex    items-center justify-between'>
         <div className="flex  items-center"> 
         <ul className=' items-center hidden space-x-8 lg:flex '>
         {menu}
       
-        
-     <div className="flex items-center">
-       
-    
+     <div className="flex items-center ">
+      
     </div>
   
-
 </ul>
   
-     
       </div>
-            
-     
-
-           
+        
             </div>
             
 
-            
-                
- 
-     
-     
-     
-  
-    <div className=" ml-auto lg:px-[20px]">
+    <div className="mx-auto lg:px-[20px]">
    
     <label class="hidden  lg:block relative ">
 <span class="sr-only">Search</span>
 <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                         <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#78909C"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-
-
 </svg>
 </span>
 <input class=" placeholder:text-[#919699] block bg-white w-full border border-slate-300 rounded-full py-2 pl-9 pr-3 shadow-sm focus:outline-[#E3E5E5]  focus:[#E3E5E5]  focus:ring-1 sm:text-sm" placeholder="Search " type="text" name="search"/>
@@ -244,8 +210,6 @@ const Header = () => {
 <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                         <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="#78909C"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-
-
 </svg>
 </span>
 <input class=" placeholder:text-[#919699] block bg-white w-full border border-slate-300 rounded-full py-3 pl-9 pr-3 sm:pl-16 sm:pr-10 shadow-sm focus:outline-[#E3E5E5]  focus:[#E3E5E5]  focus:ring-1 sm:text-sm" placeholder="Search " type="text" name="search"/>
@@ -256,11 +220,10 @@ const Header = () => {
           
           <motion.button
           animate={{
-            // scale: [1,1.2,1.4,1],
               rotate: [ 40, 30, 0 , 30 ,0],
               
         
-            // borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+            
           }}
                       aria-label='Close Menu'
                       className=' px-3 py-2 retalive -mr-2  rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
@@ -274,14 +237,10 @@ const Header = () => {
                       </svg>
             </motion.button> 
             
-                
-              
                     )
                         : (
             <div className="flex items-center">
 
-
-                 
                 <button
                 aria-label='Open Menu'
                 title='Open Menu'
@@ -304,26 +263,14 @@ const Header = () => {
                 </svg>
                             </button>
               
-              
-              
                        </div>
                          )
-                        
-                        
-                        
+                  
      }
        </div>
-                    
-    
                 </div>
             </div>
           
-          
-
-                                
- 
-
-            
         </div>
      
         {isMenuOpen && (
@@ -334,15 +281,9 @@ const Header = () => {
           {menu}
           
         </ul>
-        
-
-        
-        
-     
+       
                   </div>
-                    
-
-
+               
         </div>
       )}
 </div>

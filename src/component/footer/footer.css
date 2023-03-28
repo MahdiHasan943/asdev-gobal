@@ -1,15 +1,12 @@
 
-
 .footerH1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    /* font-size: 34px; */
     margin-left: 10px;
     line-height: 45.4px;
     color: #000000;
    letter-spacing: -2%;
 }
-
 
 .footermenu{
     font-family: 'Poppins', sans-serif;
@@ -18,14 +15,9 @@
     line-height: 32px;
     color: #000000;
    letter-spacing: 0.15px;
-   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)),
-linear-gradient(0deg, #C6CACC, #C6CACC);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
 }
 .dot{
     color: #C6CACC!important;
- 
 }
 .box{
     font-family: 'Poppins', sans-serif;
@@ -34,20 +26,12 @@ linear-gradient(0deg, #C6CACC, #C6CACC);
     width: 564px;
 }
 .icon:hover{
-     
         scale: 1.3;
         transition: all .5s ease;
-    
-      
-    
 }
 .reserve:hover{
-     
     scale: 1.04;
     transition: all .5s ease;
-
-  
-
 }
 
 .FBT:hover{
@@ -55,17 +39,10 @@ linear-gradient(0deg, #C6CACC, #C6CACC);
     transition: all .5s ease;
     
   }
-
-
-
-
 @media only screen and (max-width:624px) {
     .boxInpt{
         
         width: 280px;
-
-
-
     }
 }
 

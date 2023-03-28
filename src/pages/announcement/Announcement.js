@@ -3,6 +3,7 @@ import useTitle from '../../component/hook/useTitle'
 
 import './announceMent.css'
 import { BsArrowRightShort ,BsChevronRight} from "react-icons/bs";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import bg from '../../images/announcementImage/Image.png'
 import blob from '../../images/announcementImage/Blob.png'
@@ -34,14 +35,14 @@ const Announcement = () => {
             
             <div className="  relative">
             <div className='py-10 lg:w-[80%] h-auto ' >
-             < img  className='w-full' src={bg} alt="" />
+            <LazyLoadImage className='w-full' src={bg} alt="" />
 
             </div>
          
               
               <div className="hidden lg:block absolute top-0 right-0">
               <div className="lg:w-[450px]  relative w-full mx-auto h-full ">
-                < img className=' px-8 w-full h-full  z-0 mb-[-140px]' src={blob} alt="" />
+              <LazyLoadImage className=' px-8 w-full h-full  z-0 mb-[-140px]' src={blob} alt="" />
                 <div className="bg-white w-full absolute top-[100px] left-[60px] z-50  p-10   rounded-lg">
                   
                     <div className="h-[200px] flex justify-center items-center"  style={{ backgroundImage: `url(${Map})` }}>
@@ -98,23 +99,28 @@ const Announcement = () => {
               </p>
                  
               <div className="grid grid-cols-1 my-6 lg:grid-cols-2 gap-5">
-                <div className="GridOne pt-6">
-                  <p className='Apps py-4 text-center'>
+                <div className="            h-[700px]  " style={{ backgroundImage: `url(WHF.png)` }}>
+                  <div className="  flex items-center justify-center bg-opacity-40 hero-overlay">
+                    <div className="">
+                    <p className='Apps py-4 text-center'>
                   FOR APPS HIGHLIGHTS
                   </p>
                   <p className='most py-3 text-center'>
                   Represent your apps in a most <br /> convenient way to achieve installs
                   </p>
-                  <p className='smart py-4 text-center'>
+                  <p className='smart1 py-4 text-center'>
                   For smart teams who want to release apps faster with <br /> Setproduct items by publishing into a library
                   </p>
-                  < img className='mx-auto' src={Iphone2} alt="" />
+                 </div>
+                 </div>
+                 
                 </div>
-                <div className="GridTwo py-4">
+                <div className="    bg-no-repeat bg-center bg-cover          h-[700px] " style={{ backgroundImage: `url(Nekxen.png)` }}>
 
-                  <img className='mx-auto' src={Flow} alt="" />
-
-                <p className='Apps py-4 text-center'>
+                      
+                  <div className="bg-opacity-40 hero-overlay flex items-center  justify-center">
+                    <div className="mt-[90px]">
+                    <p className='Apps py-4 text-center'>
                 FOR A BETTER SHOWCASE
                   </p>
                   <p className='most py-3 text-center'>
@@ -124,7 +130,7 @@ const Announcement = () => {
                   Copy and paste into most storytelling UI pieces <br /> from your appliaction and equip with a description.
                   </p>
                   <div className="flex justify-center">
-                  <button className=' border bottom-1 FBT rounded-full border-[white] flex justify-between py-6 px-12'>
+                  <button className='hover:bg-[#b17920] border bottom-1 FBT rounded-full border-[white] flex justify-between py-4 px-12'>
                                 <span className='text-white'>
                                 Use this method </span>
                                <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
@@ -132,27 +138,30 @@ const Announcement = () => {
                         </button>
 
                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
               {/* 2 grid */}
 
               <div className="grid overflow-hidden grid-cols-1 lg:grid-cols-2 gap-5">
 
-              <div className="GridThree py-6">
+              <div className="   flex items-end bg-cover bg-no-repeat justify-center         h-[900px]  " style={{ backgroundImage: `url(Construction.png)` }}>
 
-         <img className='mx-auto' src={Mack} alt="" />
 
-          <p className='Apps mt-[-200px] py-4 text-center'>
+                  <div className="bg-opacity-50 hero-overlay flex items-center justify-center">
+                  <div className="">
+                  <p className='Apps mt-[-200px] py-4 text-center'>
           FOR PRODUCT SCREENS
           </p>
             <p className='most py-3 text-center'>
             Editable Mockups are here
             </p>
-            <p className='smart py-4 text-center'>
+            <p className='smart1 py-4 text-center'>
             For smart teams who want to release apps faster <br /> with Setproduct items by publishing into a library
             </p>
               <div className="flex justify-center">
-              <button className='FBT border bottom-1 rounded-full border-[white] flex justify-between py-6 px-12'>
+              <button className='FBT hover:bg-[#ffde59] border bottom-1 rounded-full border-[white] flex justify-between py-4 px-12'>
                             <span className='text-white'>
                             Quickstart your project </span>
                           <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
@@ -160,11 +169,14 @@ const Announcement = () => {
       </button>
 
  </div>
+                </div>
+                  </div>
 </div>
 
 
-                <div className="GridFour flex  pt-6">
-                  <div className="ml-[30px] w-[50%]">
+                <div className="   flex bg-center bg-cover  bg-no-repeat justify-center    items-center    h-auto sm:h-[900px]   " style={{ backgroundImage: `url(Party.png)` }}>
+                  <div className="bg-opacity-40 hero-overlay py-20 sm:py-0 flex items-center justify-center">
+                  <div className="ml-[30px]  w-[50%]">
                   <p className='Apps py-4 '>
                   RESCALABLE BLOCKS
                   </p>
@@ -181,7 +193,7 @@ Impact users better. <br />
 • Several Google.Fonts declared as <br /> Figma styles for base typography. <br /> You are free to choose!
                   </p>
                   <div className="flex justify-center">
-                  <button className='FBT border bottom-1 rounded-full border-[white] flex justify-between py-6 px-4'>
+                  <button className='FBT hover:bg-[#3ba27a] border bottom-1 rounded-full border-[white] flex justify-between py-4 px-4'>
                                 <span className='text-white'>
                                 Download Fapapp now! </span>
                                <span className='text-white font-bold mx-4'> <BsChevronRight />  </span>
@@ -190,9 +202,8 @@ Impact users better. <br />
 
                    </div>
                   </div>
-                  <div className="w-[50%]">
-                    < img className='h-[600px] w-full' src={IphoneOne} alt="" />
-                  </div>
+                </div>
+                
                 </div>
                
               </div>
